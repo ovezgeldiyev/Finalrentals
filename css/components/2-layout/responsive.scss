@@ -1,0 +1,199 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+  // @include intro-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+  h1 {
+    font-size: 65px;
+  }
+  h2 {
+    &.big {
+      font-size: 65px;
+    }
+  }
+  // @include intro-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+  // @include intro-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+  .auto__container {
+    padding: 0 30px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 44px;
+    &.big {
+      font-size: 60px;
+    }
+  }
+  h3 {
+    &.big {
+      font-size: 30px;
+      -webkit-text-stroke: 1px #f8f8f8;
+    }
+  }
+  @include intro-xlg-xxlg;
+  @include needs-xlg-xxlg;
+  @include reviews-xlg-xxlg;
+  @include road-xlg-xxlg;
+  @include articles-xlg-xxlg;
+  @include travel-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  h1 {
+    font-size: 55px;
+  }
+  h2 {
+    font-size: 40px;
+    &.big {
+      font-size: 55px;
+    }
+  }
+  p {
+    &.big {
+      font-size: 16px;
+    }
+  }
+  .button {
+    &.secondary {
+      font-size: 18px;
+    }
+  }
+  .main {
+    padding-top: 72px;
+  }
+  @include header-lg-xlg;
+  @include nav-lg-xlg;
+}
+// 930px
+@include md-lg {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 36px;
+    &.big {
+      font-size: 50px;
+    }
+  }
+  @include intro-md-lg;
+  @include needs-md-lg;
+  @include road-md-lg;
+  @include faq-md-lg;
+  @include articles-md-lg;
+  @include travel-md-lg;
+  @include reviews-md-lg;
+  @include network-md-lg;
+  @include chat-md-lg;
+  @include footer-md-lg;
+}
+// 840px
+@include md-lg-extra {
+  // @include road-md-lg-extra;
+}
+// 750px
+@include sm-md {
+  .auto__container {
+    padding: 0 24px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 32px;
+    &.big {
+      font-size: 45px;
+    }
+  }
+
+  @include faq-sm-md;
+  @include footer-sm-md;
+}
+// 650px
+@include sm-md-extra {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    &.big {
+      font-size: 40px;
+    }
+  }
+  @include reviews-sm-md-extra;
+  @include road-sm-md-extra;
+  @include articles-sm-md-extra;
+  @include network-sm-md-extra;
+  @include chat-sm-md-extra;
+  @include footer-sm-md-extra;
+}
+// 540px
+@include xsm-sm {
+  h3 {
+    &.big {
+      font-style: normal;
+      font-size: 20px;
+      -webkit-text-stroke: 0.5px #f8f8f8;
+    }
+  }
+  .locFinder {
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    max-width: unset;
+    &__wrapper {
+      padding: 0;
+    }
+  }
+  .daterangepicker {
+    position: fixed;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: unset;
+    overflow-y: auto;
+    .drp-calendar {
+      width: 100%;
+      max-width: 340px;
+      margin: 0 auto;
+      &.left {
+        margin-bottom: 20px !important;
+      }
+      &.right {
+        padding: 0 !important;
+        .calendar-time {
+          width: 100%;
+        }
+      }
+    }
+
+    .calendar-time {
+      width: 100%;
+    }
+  }
+  @include header-xsm-sm;
+  @include nav-xsm-sm;
+  @include intro-xsm-sm;
+  @include needs-xsm-sm;
+  @include travel-xsm-sm;
+  @include reviews-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+  // @include intro-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm {
+  // @include intro-xxxsm-xxsm;
+}
