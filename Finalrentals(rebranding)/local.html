@@ -1,0 +1,2132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&family=Knewave&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Local Homepage</title>
+  </head>
+
+  <body>
+    <!-- header start
+    =========================================== -->
+    <header class="header" id="header">
+      <div class="auto__container">
+        <div class="header__inner">
+          <a href="index.html" class="header__inner-logo">
+            <img src="./images/logo.svg" alt="logo" />
+          </a>
+          <nav class="nav" id="menu">
+            <div class="nav__inner">
+              <ul class="nav__inner-links">
+                <li>
+                  <a href="locations.html" class="nav__inner-link">
+                    Locations
+                  </a>
+                </li>
+                <li>
+                  <a href="blog.html" class="nav__inner-link"> Blog </a>
+                </li>
+                <li>
+                  <button
+                    type="button"
+                    class="nav__inner-link dropBtn"
+                    data-drop="#drop-1"
+                  >
+                    Global Destinations
+                    <svg>
+                      <use xlink:href="#chevron-botom"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    type="button"
+                    class="nav__inner-link"
+                    id="currencyBtn"
+                  >
+                    Currency
+                    <svg>
+                      <use xlink:href="#chevron-botom"></use>
+                    </svg>
+                  </button>
+                  <div class="currencyMenu" id="currencyMenu">
+                    <a href="#">
+                      <p>USD</p>
+                    </a>
+                    <a href="#">
+                      <p>EUR</p>
+                    </a>
+                    <a href="#">
+                      <p>GBP</p>
+                    </a>
+                    <a href="#">
+                      <p>AED</p>
+                    </a>
+                    <a href="#">
+                      <p>SAR</p>
+                    </a>
+                    <a href="#">
+                      <p>CAD</p>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <button type="button" class="nav__inner-link" id="langBtn">
+                    Language
+                    <svg>
+                      <use xlink:href="#chevron-botom"></use>
+                    </svg>
+                  </button>
+                  <div class="langMenu" id="langMenu">
+                    <a href="#">
+                      <div class="lang__icon">
+                        <img src="./images/icons/flags/uk-circle.png" alt="" />
+                      </div>
+                      <p>EN</p>
+                    </a>
+                    <a href="#">
+                      <div class="lang__icon">
+                        <img src="./images/icons/lang/es.png" alt="" />
+                      </div>
+                      <p>ES</p>
+                    </a>
+                    <a href="#">
+                      <div class="lang__icon">
+                        <img src="./images/icons/lang/fr.png" alt="" />
+                      </div>
+                      <p>FR</p>
+                    </a>
+                    <a href="#">
+                      <div class="lang__icon">
+                        <img src="./images/icons/lang/de.png" alt="" />
+                      </div>
+                      <p>DE</p>
+                    </a>
+                    <a href="#">
+                      <div class="lang__icon">
+                        <img src="./images/icons/lang/it.png" alt="" />
+                      </div>
+                      <p>IT</p>
+                    </a>
+                    <a href="#">
+                      <div class="lang__icon">
+                        <img src="./images/icons/lang/pt.png" alt="" />
+                      </div>
+                      <p>PT</p>
+                    </a>
+                    <a href="#">
+                      <div class="lang__icon">
+                        <img src="./images/icons/lang/zh.png" alt="" />
+                      </div>
+                      <p>ZH</p>
+                    </a>
+                    <a href="#">
+                      <div class="lang__icon">
+                        <img src="./images/icons/lang/ja.png" alt="" />
+                      </div>
+                      <p>JA</p>
+                    </a>
+                    <a href="#">
+                      <div class="lang__icon">
+                        <img src="./images/icons/lang/ko.png" alt="" />
+                      </div>
+                      <p>KO</p>
+                    </a>
+                    <a href="#">
+                      <div class="lang__icon">
+                        <img src="./images/icons/lang/ar.png" alt="" />
+                      </div>
+                      <p>AR</p>
+                    </a>
+                    <a href="#">
+                      <div class="lang__icon">
+                        <img src="./images/icons/lang/ru.png" alt="" />
+                      </div>
+                      <p>RU</p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+              <div class="nav__inner-side">
+                <a href="#" class="button primary"> Manage booking </a>
+              </div>
+            </div>
+          </nav>
+          <div class="burger" id="menuBtn">
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="drop dropEvent" id="drop-1">
+        <div class="auto__container">
+          <div class="drop__inner">
+            <div class="drop__inner-back dropClose">
+              <svg>
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+              Back
+            </div>
+            <div class="drop__inner-row">
+              <div class="drop__inner-col">
+                <div class="dropItem">
+                  <div class="dropItem__title">
+                    <h5>Africa</h5>
+                  </div>
+                  <div class="dropItem__list">
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/morocco.png" alt="" />
+                      </span>
+                      <p>Morocco</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/reunion.png" alt="" />
+                      </span>
+                      <p>Reunion</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="dropItem">
+                  <div class="dropItem__title">
+                    <h5>Asia</h5>
+                  </div>
+                  <div class="dropItem__list">
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/azerbaijan.png" alt="" />
+                      </span>
+                      <p>Azerbaijan</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/jordan.png" alt="" />
+                      </span>
+                      <p>Jordan</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/turkey.png" alt="" />
+                      </span>
+                      <p>Turkey</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/uae.png" alt="" />
+                      </span>
+                      <p>United Arab Emirates</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="drop__inner-col big">
+                <div class="dropItem">
+                  <div class="dropItem__title">
+                    <h5>The Americas</h5>
+                  </div>
+                  <div class="dropItem__row">
+                    <div class="dropItem__list sm">
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/antigua.png" alt="" />
+                        </span>
+                        <p>Antigua and Barbuda</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/bahamas.png" alt="" />
+                        </span>
+                        <p>Bahamas</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img
+                            src="./images/icons/flags/costa-rica.png"
+                            alt=""
+                          />
+                        </span>
+                        <p>Costa Rica</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img
+                            src="./images/icons/flags/dominican.png"
+                            alt=""
+                          />
+                        </span>
+                        <p>Dominican Republic</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/jamaica.png" alt="" />
+                        </span>
+                        <p>Jamaica</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/mexico.png" alt="" />
+                        </span>
+                        <p>Mexico</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img
+                            src="./images/icons/flags/puerto-rico.png"
+                            alt=""
+                          />
+                        </span>
+                        <p>Puerto Rico</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="dropItem__list sm">
+                      <a href="#">
+                        <span>
+                          <img
+                            src="./images/icons/flags/saint-lucia.png"
+                            alt=""
+                          />
+                        </span>
+                        <p>Saint Lucia</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img
+                            src="./images/icons/flags/sint-maarten.png"
+                            alt=""
+                          />
+                        </span>
+                        <p>Sint Maarten</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/suriname.png" alt="" />
+                        </span>
+                        <p>Suriname</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/trinidad.png" alt="" />
+                        </span>
+                        <p>Trinidad and Tobago</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img
+                            src="./images/icons/flags/turks-and-caicos.png"
+                            alt=""
+                          />
+                        </span>
+                        <p>Turks and Caicos</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/us.png" alt="" />
+                        </span>
+                        <p>United States</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="drop__inner-col">
+                <div class="dropItem">
+                  <div class="dropItem__title">
+                    <h5>Europe</h5>
+                  </div>
+                  <div class="dropItem__list">
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/albania.png" alt="" />
+                      </span>
+                      <p>Albania</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/croatia.png" alt="" />
+                      </span>
+                      <p>Croatia</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/greece.png" alt="" />
+                      </span>
+                      <p>Greece</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/malta.png" alt="" />
+                      </span>
+                      <p>Malta</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/montenegro.png" alt="" />
+                      </span>
+                      <p>Montenegro</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/portugal.png" alt="" />
+                      </span>
+                      <p>Portugal</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/romania.png" alt="" />
+                      </span>
+                      <p>Romania</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/serbia.png" alt="" />
+                      </span>
+                      <p>Serbia</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end
+    =========================================== -->
+    <main class="main">
+      <!-- intro start
+    =========================================== -->
+      <section class="intro">
+        <div class="intro__bg">
+          <img src="./images/intro/2.webp" alt="" />
+        </div>
+        <div class="auto__container">
+          <div class="intro__inner">
+            <div class="intro__inner-title">
+              <h1>
+                Rent a Car in <br />
+                Portugal and Save
+              </h1>
+            </div>
+            <div class="introRent">
+              <div class="introRent__row">
+                <div class="introRent__item-wrapper">
+                  <div class="introRent__item">
+                    <div class="introRent__item-name">
+                      <p>Pickup</p>
+                      <h5>Search Pickup City/Location</h5>
+                    </div>
+                    <div class="introRent__drop">
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/fr.png" alt="" />
+                        </span>
+                        <h5>France</h5>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/fr.png" alt="" />
+                        </span>
+                        <h5>France</h5>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/fr.png" alt="" />
+                        </span>
+                        <h5>France</h5>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/fr.png" alt="" />
+                        </span>
+                        <h5>France</h5>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/fr.png" alt="" />
+                        </span>
+                        <h5>France</h5>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <button
+                        type="button"
+                        class="introRent__drop-finder modallBtn"
+                        data-mod="#modal-1"
+                      >
+                        Location finder
+                        <span>
+                          <img src="./images/icons/arrow-right.svg" alt="" />
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="introRent__item">
+                    <div class="introRent__item-name">
+                      <p class="sm">Drop-off</p>
+                      <h5>Same as pickup</h5>
+                    </div>
+                    <div class="introRent__drop">
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/fr.png" alt="" />
+                        </span>
+                        <h5>France</h5>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/fr.png" alt="" />
+                        </span>
+                        <h5>France</h5>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/fr.png" alt="" />
+                        </span>
+                        <h5>France</h5>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/fr.png" alt="" />
+                        </span>
+                        <h5>France</h5>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/fr.png" alt="" />
+                        </span>
+                        <h5>France</h5>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <button
+                        type="button"
+                        class="introRent__drop-finder modallBtn"
+                        data-mod="#modal-1"
+                      >
+                        Location finder
+                        <span>
+                          <img src="./images/icons/arrow-right.svg" alt="" />
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="introRent__item-wrapper">
+                  <input type="text" name="datetimes" id="datetimes" />
+                  <div class="introRent__item big">
+                    <div class="introRent__item-name">
+                      <p class="sm">Date &Time</p>
+                      <h5>
+                        <span id="startDate">01 Jan 9:00 AM </span> -
+                        <span id="endDate">10 Jan 9:00 AM </span>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="button primary">Search</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- intro end
+    =========================================== -->
+      <!-- features start
+    =========================================== -->
+      <section class="features sm">
+        <div class="auto__container">
+          <div class="features__inner">
+            <div class="features__inner-row">
+              <div class="featuresItem">
+                <div class="featuresItem__icon">
+                  <img src="./images/features/1.svg" alt="" />
+                </div>
+                <div class="featuresItem__content">
+                  <h4>Free cancellation</h4>
+                  <p>
+                    Cancel your booking anytime before pickup and you won’t pay
+                    a thing
+                  </p>
+                </div>
+              </div>
+              <div class="featuresItem">
+                <div class="featuresItem__icon">
+                  <img src="./images/features/2.svg" alt="" />
+                </div>
+                <div class="featuresItem__content">
+                  <h4>No hidden charges</h4>
+                  <p>
+                    What you see on your booking is exactly what you’ll pay on
+                    pickup.
+                  </p>
+                </div>
+              </div>
+              <div class="featuresItem">
+                <div class="featuresItem__icon">
+                  <img src="./images/features/3.svg" alt="" />
+                </div>
+                <div class="featuresItem__content">
+                  <h4>Great value</h4>
+                  <p>We compare offers to make sure you get great value.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- features end
+=========================================== -->
+      <!-- deals start
+    =========================================== -->
+      <section class="deals">
+        <div class="auto__container">
+          <div class="deals__inner">
+            <div class="deals__inner-title">
+              <h2>Today’s Deals in Portugal</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="deals__inner-slider">
+              <a href="#" class="dealsItem">
+                <div class="dealsItem__image">
+                  <img src="./images/deals/1.webp" alt="" />
+                  <div class="dealsItem__tags">
+                    <span> Category </span>
+                    <span class="primary"> Free cancellation </span>
+                  </div>
+                  <div class="dealsItem__name">
+                    <h6>Car Model</h6>
+                    <p>or similar</p>
+                  </div>
+                </div>
+                <div class="dealsItem__content">
+                  <div class="dealsItem__row">
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/seat.svg" alt="" />
+                      </span>
+                      5 seats
+                    </p>
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/petrol.svg" alt="" />
+                      </span>
+                      Petrol
+                    </p>
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/ac.svg" alt="" />
+                      </span>
+                      AC
+                    </p>
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/automatic.svg" alt="" />
+                      </span>
+                      Automatic
+                    </p>
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/speed.svg" alt="" />
+                      </span>
+                      Unlimited Mileage
+                    </p>
+                  </div>
+                  <div class="dealsItem__price">
+                    <p class="ex">from AED <span>60</span> /day</p>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="dealsItem">
+                <div class="dealsItem__image">
+                  <img src="./images/deals/2.webp" alt="" />
+                  <div class="dealsItem__tags">
+                    <span> Category </span>
+                    <span class="primary"> Free cancellation </span>
+                  </div>
+                  <div class="dealsItem__name">
+                    <h6>Car Model</h6>
+                    <p>or similar</p>
+                  </div>
+                </div>
+                <div class="dealsItem__content">
+                  <div class="dealsItem__row">
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/seat.svg" alt="" />
+                      </span>
+                      5 seats
+                    </p>
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/petrol.svg" alt="" />
+                      </span>
+                      Petrol
+                    </p>
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/ac.svg" alt="" />
+                      </span>
+                      AC
+                    </p>
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/automatic.svg" alt="" />
+                      </span>
+                      Automatic
+                    </p>
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/speed.svg" alt="" />
+                      </span>
+                      Unlimited Mileage
+                    </p>
+                  </div>
+                  <div class="dealsItem__price">
+                    <p class="ex">from AED <span>60</span> /day</p>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="dealsItem">
+                <div class="dealsItem__image">
+                  <img src="./images/deals/3.webp" alt="" />
+                  <div class="dealsItem__tags">
+                    <span> Category </span>
+                    <span class="primary"> Free cancellation </span>
+                  </div>
+                  <div class="dealsItem__name">
+                    <h6>Car Model</h6>
+                    <p>or similar</p>
+                  </div>
+                </div>
+                <div class="dealsItem__content">
+                  <div class="dealsItem__row">
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/seat.svg" alt="" />
+                      </span>
+                      5 seats
+                    </p>
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/petrol.svg" alt="" />
+                      </span>
+                      Petrol
+                    </p>
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/ac.svg" alt="" />
+                      </span>
+                      AC
+                    </p>
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/automatic.svg" alt="" />
+                      </span>
+                      Automatic
+                    </p>
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/speed.svg" alt="" />
+                      </span>
+                      Unlimited Mileage
+                    </p>
+                  </div>
+                  <div class="dealsItem__price">
+                    <p class="ex">from AED <span>60</span> /day</p>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="dealsItem">
+                <div class="dealsItem__image">
+                  <img src="./images/deals/1.webp" alt="" />
+                  <div class="dealsItem__tags">
+                    <span> Category </span>
+                    <span class="primary"> Free cancellation </span>
+                  </div>
+                  <div class="dealsItem__name">
+                    <h6>Car Model</h6>
+                    <p>or similar</p>
+                  </div>
+                </div>
+                <div class="dealsItem__content">
+                  <div class="dealsItem__row">
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/seat.svg" alt="" />
+                      </span>
+                      5 seats
+                    </p>
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/petrol.svg" alt="" />
+                      </span>
+                      Petrol
+                    </p>
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/ac.svg" alt="" />
+                      </span>
+                      AC
+                    </p>
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/automatic.svg" alt="" />
+                      </span>
+                      Automatic
+                    </p>
+                    <p>
+                      <span>
+                        <img src="./images/deals/icons/speed.svg" alt="" />
+                      </span>
+                      Unlimited Mileage
+                    </p>
+                  </div>
+                  <div class="dealsItem__price">
+                    <p class="ex">from AED <span>60</span> /day</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- deals end
+  =========================================== -->
+      <!-- places start
+    =========================================== -->
+      <section class="places">
+        <div class="auto__container">
+          <div class="places__inner">
+            <div class="places__inner-title">
+              <h2>Portugal Travel Diaries</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="places__inner-row slider">
+              <a href="#" class="placesItem big">
+                <div class="placesItem__image">
+                  <img src="./images/places/1.webp" alt="" />
+                </div>
+                <div class="placesItem__tag">Lisbon</div>
+                <div class="placesItem__name">
+                  <h4>Lorem ipsum dolor sit amet</h4>
+                </div>
+              </a>
+              <a href="#" class="placesItem">
+                <div class="placesItem__image">
+                  <img src="./images/places/2.webp" alt="" />
+                </div>
+                <div class="placesItem__tag">Lisbon</div>
+                <div class="placesItem__name">
+                  <h4>Lorem ipsum dolor sit amet</h4>
+                </div>
+              </a>
+              <a href="#" class="placesItem">
+                <div class="placesItem__image">
+                  <img src="./images/places/3.webp" alt="" />
+                </div>
+                <div class="placesItem__tag">Lisbon</div>
+                <div class="placesItem__name">
+                  <h4>Lorem ipsum dolor sit amet</h4>
+                </div>
+              </a>
+              <a href="#" class="placesItem">
+                <div class="placesItem__image">
+                  <img src="./images/places/4.webp" alt="" />
+                </div>
+                <div class="placesItem__tag">Lisbon</div>
+                <div class="placesItem__name">
+                  <h4>Lorem ipsum dolor sit amet</h4>
+                </div>
+              </a>
+              <a href="#" class="placesItem">
+                <div class="placesItem__image">
+                  <img src="./images/places/5.webp" alt="" />
+                </div>
+                <div class="placesItem__tag">Lisbon</div>
+                <div class="placesItem__name">
+                  <h4>Lorem ipsum dolor sit amet</h4>
+                </div>
+              </a>
+              <a href="#" class="placesItem big">
+                <div class="placesItem__image">
+                  <img src="./images/places/6.webp" alt="" />
+                </div>
+                <div class="placesItem__tag">Lisbon</div>
+                <div class="placesItem__name">
+                  <h4>Lorem ipsum dolor sit amet</h4>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- places end
+=========================================== -->
+      <!-- steps start
+    =========================================== -->
+      <section class="steps">
+        <div class="auto__container">
+          <div class="steps__inner">
+            <div class="steps__inner-title">
+              <h2>Book your rental car in four steps</h2>
+              <p>
+                We’ve made finding and booking a rental car refreshingly simple.
+                Here’s how it works.
+              </p>
+            </div>
+            <div class="steps__inner-slider">
+              <div class="stepsItem">
+                <div class="stepsItem__bg">
+                  <img src="./images/steps/1.webp" alt="location" />
+                </div>
+                <div class="stepsItem__title">
+                  <div class="stepsItem__number">1</div>
+                  <h3>Find your location</h3>
+                </div>
+                <div class="stepsItem__text">
+                  <p>
+                    Select your starting point and destination to discover
+                    nearby car rentals.
+                  </p>
+                </div>
+              </div>
+              <div class="stepsItem">
+                <div class="stepsItem__bg">
+                  <img src="./images/steps/2.webp" alt="cars" />
+                </div>
+                <div class="stepsItem__title">
+                  <div class="stepsItem__number">2</div>
+                  <h3>Choose your car</h3>
+                </div>
+                <div class="stepsItem__text">
+                  <p>
+                    Pick the ride that suits your style, city, and adventure.
+                  </p>
+                </div>
+              </div>
+              <div class="stepsItem">
+                <div class="stepsItem__bg">
+                  <img src="./images/steps/3.webp" alt="inforamtion" />
+                </div>
+                <div class="stepsItem__title">
+                  <div class="stepsItem__number">3</div>
+                  <h3>Provide your information</h3>
+                </div>
+                <div class="stepsItem__text">
+                  <p>
+                    Give us a few quick details about yourself, and you're all
+                    set.
+                  </p>
+                </div>
+              </div>
+              <div class="stepsItem">
+                <div class="stepsItem__bg">
+                  <img src="./images/steps/4.webp" alt="key" />
+                </div>
+                <div class="stepsItem__title">
+                  <div class="stepsItem__number">4</div>
+                  <h3>Get your instant voucher</h3>
+                </div>
+                <div class="stepsItem__text">
+                  <p>
+                    Your voucher will arrive in your inbox instantly after
+                    booking. Just show it at the counter when you collect your
+                    car.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- steps end
+=========================================== -->
+      <!-- explore start
+    =========================================== -->
+      <section class="explore">
+        <div class="auto__container">
+          <div class="explore__inner">
+            <div class="exploreContent">
+              <h2>Explore car rentals in 50+ countries</h2>
+              <div class="exploreContent__tabs">
+                <button type="button" class="faqBtn" data-faq="#faq-1">
+                  Africa
+                </button>
+                <button type="button" class="faqBtn" data-faq="#faq-2">
+                  America
+                </button>
+                <button type="button" class="faqBtn" data-faq="#faq-3">
+                  Asia
+                </button>
+                <button type="button" class="faqBtn active" data-faq="#faq-4">
+                  Europe
+                </button>
+                <button type="button" class="faqBtn" data-faq="#faq-5">
+                  Oceania
+                </button>
+              </div>
+              <div class="exploreContent__body showMore">
+                <div class="exploreContent__list faqEvent" id="faq-1">
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/albania.png" alt="" />
+                    </span>
+                    <p>Albania</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/iceland.png" alt="" />
+                    </span>
+                    <p>Iceland</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/austria.png" alt="" />
+                    </span>
+                    <p>Austria</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/portugal.png" alt="" />
+                    </span>
+                    <p>Portugal</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/croatia.png" alt="" />
+                    </span>
+                    <p>Croatia</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/spain.png" alt="" />
+                    </span>
+                    <p>Spain</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/germany.png" alt="" />
+                    </span>
+                    <p>Germany</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/switzerland.png" alt="" />
+                    </span>
+                    <p>Switzerland</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/croatia.png" alt="" />
+                    </span>
+                    <p>Croatia</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/spain.png" alt="" />
+                    </span>
+                    <p>Spain</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/germany.png" alt="" />
+                    </span>
+                    <p>Germany</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/switzerland.png" alt="" />
+                    </span>
+                    <p>Switzerland</p>
+                  </div>
+                </div>
+                <div class="exploreContent__list faqEvent" id="faq-2">
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/albania.png" alt="" />
+                    </span>
+                    <p>Albania</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/iceland.png" alt="" />
+                    </span>
+                    <p>Iceland</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/austria.png" alt="" />
+                    </span>
+                    <p>Austria</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/portugal.png" alt="" />
+                    </span>
+                    <p>Portugal</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/croatia.png" alt="" />
+                    </span>
+                    <p>Croatia</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/spain.png" alt="" />
+                    </span>
+                    <p>Spain</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/germany.png" alt="" />
+                    </span>
+                    <p>Germany</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/switzerland.png" alt="" />
+                    </span>
+                    <p>Switzerland</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/croatia.png" alt="" />
+                    </span>
+                    <p>Croatia</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/spain.png" alt="" />
+                    </span>
+                    <p>Spain</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/germany.png" alt="" />
+                    </span>
+                    <p>Germany</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/switzerland.png" alt="" />
+                    </span>
+                    <p>Switzerland</p>
+                  </div>
+                </div>
+                <div class="exploreContent__list faqEvent" id="faq-3">
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/albania.png" alt="" />
+                    </span>
+                    <p>Albania</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/iceland.png" alt="" />
+                    </span>
+                    <p>Iceland</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/austria.png" alt="" />
+                    </span>
+                    <p>Austria</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/portugal.png" alt="" />
+                    </span>
+                    <p>Portugal</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/croatia.png" alt="" />
+                    </span>
+                    <p>Croatia</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/spain.png" alt="" />
+                    </span>
+                    <p>Spain</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/germany.png" alt="" />
+                    </span>
+                    <p>Germany</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/switzerland.png" alt="" />
+                    </span>
+                    <p>Switzerland</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/croatia.png" alt="" />
+                    </span>
+                    <p>Croatia</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/spain.png" alt="" />
+                    </span>
+                    <p>Spain</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/germany.png" alt="" />
+                    </span>
+                    <p>Germany</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/switzerland.png" alt="" />
+                    </span>
+                    <p>Switzerland</p>
+                  </div>
+                </div>
+                <div class="exploreContent__list faqEvent active" id="faq-4">
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/albania.png" alt="" />
+                    </span>
+                    <p>Albania</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/iceland.png" alt="" />
+                    </span>
+                    <p>Iceland</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/austria.png" alt="" />
+                    </span>
+                    <p>Austria</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/portugal.png" alt="" />
+                    </span>
+                    <p>Portugal</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/croatia.png" alt="" />
+                    </span>
+                    <p>Croatia</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/spain.png" alt="" />
+                    </span>
+                    <p>Spain</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/germany.png" alt="" />
+                    </span>
+                    <p>Germany</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/switzerland.png" alt="" />
+                    </span>
+                    <p>Switzerland</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/croatia.png" alt="" />
+                    </span>
+                    <p>Croatia</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/spain.png" alt="" />
+                    </span>
+                    <p>Spain</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/germany.png" alt="" />
+                    </span>
+                    <p>Germany</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/switzerland.png" alt="" />
+                    </span>
+                    <p>Switzerland</p>
+                  </div>
+                </div>
+                <div class="exploreContent__list faqEvent" id="faq-5">
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/albania.png" alt="" />
+                    </span>
+                    <p>Albania</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/iceland.png" alt="" />
+                    </span>
+                    <p>Iceland</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/austria.png" alt="" />
+                    </span>
+                    <p>Austria</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/portugal.png" alt="" />
+                    </span>
+                    <p>Portugal</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/croatia.png" alt="" />
+                    </span>
+                    <p>Croatia</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/spain.png" alt="" />
+                    </span>
+                    <p>Spain</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/germany.png" alt="" />
+                    </span>
+                    <p>Germany</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/switzerland.png" alt="" />
+                    </span>
+                    <p>Switzerland</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/croatia.png" alt="" />
+                    </span>
+                    <p>Croatia</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/spain.png" alt="" />
+                    </span>
+                    <p>Spain</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/germany.png" alt="" />
+                    </span>
+                    <p>Germany</p>
+                  </div>
+                  <div class="exploreItem">
+                    <span>
+                      <img src="./images/icons/flags/switzerland.png" alt="" />
+                    </span>
+                    <p>Switzerland</p>
+                  </div>
+                </div>
+              </div>
+              <div class="exploreContent__foot">
+                <button type="button" class="showMoreBtn">
+                  <b> See more </b>
+                  <svg>
+                    <use xlink:href="#chevron-botom"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="exploreImage">
+              <img src="./images/explore/illustration.svg" alt="illustration" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- explore end
+  =========================================== -->
+      <!-- clients start
+    =========================================== -->
+      <section class="clients">
+        <div class="auto__container">
+          <div class="clients__inner">
+            <div class="clients__inner-title">
+              <h2>What our clients say</h2>
+              <p>
+                Don’t just take our word for it. <br />
+                Here's what real travellers love about booking with us.
+              </p>
+            </div>
+            <div class="clients__inner-slider">
+              <div class="clientsItem">
+                <div class="clientsItem__rate">
+                  <img src="./images/clients/stars.svg" alt="stars" />
+                </div>
+                <p>
+                  “Lorem ipsum dolor sit amet conse ctetur adipiscing lectus a
+                  nunc mauris scelerisque sed egestas pharetraol quis pharetra
+                  arcu pharetra blandit.” “Lorem ipsum dolor sit amet conse
+                  ctetur adipiscing lectus a nunc mauris scelerisque sed egestas
+                  pharetraol quis pharetra arcu pharetra blandit.”
+                </p>
+                <h6>Sarah Susan</h6>
+              </div>
+              <div class="clientsItem">
+                <div class="clientsItem__rate">
+                  <img src="./images/clients/stars.svg" alt="stars" />
+                </div>
+                <p>
+                  “Lorem ipsum dolor sit amet conse ctetur adipiscing lectus a
+                  nunc mauris scelerisque sed egestas pharetraol quis pharetra
+                  arcu pharetra blandit.”
+                </p>
+                <h6>Sarah Susan</h6>
+              </div>
+              <div class="clientsItem">
+                <div class="clientsItem__rate">
+                  <img src="./images/clients/stars.svg" alt="stars" />
+                </div>
+                <p>
+                  “Lorem ipsum dolor sit amet conse ctetur adipiscing lectus a
+                  nunc mauris scelerisque sed egestas pharetraol quis pharetra
+                  arcu pharetra blandit.”
+                </p>
+                <h6>Sarah Susan</h6>
+              </div>
+              <div class="clientsItem">
+                <div class="clientsItem__rate">
+                  <img src="./images/clients/stars.svg" alt="stars" />
+                </div>
+                <p>
+                  “Lorem ipsum dolor sit amet conse ctetur adipiscing lectus a
+                  nunc mauris scelerisque sed egestas pharetraol quis pharetra
+                  arcu pharetra blandit.”
+                </p>
+                <h6>Sarah Susan</h6>
+              </div>
+              <div class="clientsItem">
+                <div class="clientsItem__rate">
+                  <img src="./images/clients/stars.svg" alt="stars" />
+                </div>
+                <p>
+                  “Lorem ipsum dolor sit amet conse ctetur adipiscing lectus a
+                  nunc mauris scelerisque sed egestas pharetraol quis pharetra
+                  arcu pharetra blandit.”
+                </p>
+                <h6>Sarah Susan</h6>
+              </div>
+              <div class="clientsItem">
+                <div class="clientsItem__rate">
+                  <img src="./images/clients/stars.svg" alt="stars" />
+                </div>
+                <p>
+                  “Lorem ipsum dolor sit amet conse ctetur adipiscing lectus a
+                  nunc mauris scelerisque sed egestas pharetraol quis pharetra
+                  arcu pharetra blandit.”
+                </p>
+                <h6>Sarah Susan</h6>
+              </div>
+              <div class="clientsItem">
+                <div class="clientsItem__rate">
+                  <img src="./images/clients/stars.svg" alt="stars" />
+                </div>
+                <p>
+                  “Lorem ipsum dolor sit amet conse ctetur adipiscing lectus a
+                  nunc mauris scelerisque sed egestas pharetraol quis pharetra
+                  arcu pharetra blandit.”
+                </p>
+                <h6>Sarah Susan</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- clients end
+=========================================== -->
+      <!-- book start
+    =========================================== -->
+      <section class="book sm">
+        <div class="auto__container">
+          <div class="book__inner">
+            <div class="book__inner-content">
+              <div class="book__inner-image">
+                <img src="./images/book/illustration.svg" alt="" />
+                <img
+                  class="mob"
+                  src="./images/book/illustration-mob.svg"
+                  alt=""
+                />
+              </div>
+              <h4>Still have questions?</h4>
+              <h2>Chat with us on <span>Whatsapp</span></h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                suscipit dui orci, a dictum leo ultrices porttitor. Vivamus eu
+                neque ac ligula pretium
+              </p>
+              <a href="#" class="button secondary">Chat with us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- book end
+=========================================== -->
+      <!-- news start
+    =========================================== -->
+      <section class="news">
+        <div class="auto__container">
+          <div class="news__inner">
+            <div class="news__inner-title">
+              <h2>News and Insights</h2>
+              <p>
+                Travel tips, advice, and stories to inspire your next adventure.
+              </p>
+            </div>
+            <div class="news__inner-slider">
+              <a href="#" class="newsItem">
+                <div class="newsItem__image">
+                  <img src="./images/news/1.webp" alt="news" />
+                </div>
+                <div class="newsItem__content">
+                  <h5>Albania road</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consecte tur adipiscing elit
+                    semper dalaracc lacus vel facilisis volutpat velitolm.
+                  </p>
+                  <div class="newsItem__link">
+                    Read more
+                    <span>
+                      <svg>
+                        <use xlink:href="#arrowRight"></use>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="newsItem">
+                <div class="newsItem__image">
+                  <img src="./images/news/2.webp" alt="news" />
+                </div>
+                <div class="newsItem__content">
+                  <h5>Fuel policies for car rentals</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consecte tur adipiscing elit
+                    semper dalaracc lacus vel facilisis volutpat velitolm.
+                  </p>
+                  <div class="newsItem__link">
+                    Read more
+                    <span>
+                      <svg>
+                        <use xlink:href="#arrowRight"></use>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="newsItem">
+                <div class="newsItem__image">
+                  <img src="./images/news/3.webp" alt="news" />
+                </div>
+                <div class="newsItem__content">
+                  <h5>Wander wild</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consecte tur adipiscing elit
+                    semper dalaracc lacus vel facilisis volutpat velitolm.
+                  </p>
+                  <div class="newsItem__link">
+                    Read more
+                    <span>
+                      <svg>
+                        <use xlink:href="#arrowRight"></use>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- news end
+=========================================== -->
+      <!-- faq start
+    =========================================== -->
+      <section class="faq">
+        <div class="auto__container">
+          <div class="faq__inner">
+            <div class="faq__inner-title">
+              <h2>Frequently asked questions</h2>
+              <p>
+                Here’s everything you need to know before and during your
+                rental.
+              </p>
+            </div>
+            <div class="faq__inner-col">
+              <div class="faqItem">
+                <div class="faqItem__head tabBtn active" data-tab="#tab-1">
+                  <span> </span>
+                  <h5>What is the minimum age to rent a car?</h5>
+                </div>
+                <div class="faqItem__body tabEvent active" id="tab-1">
+                  <p>
+                    The minimum age to rent a car varies by country. In the USA
+                    and Canada, it's usually 21, though some states and
+                    provinces permit renting at 18. It's generally 18 to 21 in
+                    Europe and Asia, but some agencies may require 25. Renters
+                    under 25 often face extra fees.
+                  </p>
+                </div>
+              </div>
+              <div class="faqItem">
+                <div class="faqItem__head tabBtn" data-tab="#tab-2">
+                  <span> </span>
+                  <h5>Can I drive cross-country in a rental car?</h5>
+                </div>
+                <div class="faqItem__body tabEvent" id="tab-2">
+                  <p>
+                    Venenatis, fames a a, in. Morbi pellentesque lacus, purus in
+                    tristique justo, pretium egestas. Commodo leo nisl
+                    consectetur nisi, tortor, erat sit at aliquet. Ultrices in
+                    aliquam maecenas cursus. Sed enim cursus augue quis risus.
+                  </p>
+                </div>
+              </div>
+              <div class="faqItem">
+                <div class="faqItem__head tabBtn" data-tab="#tab-3">
+                  <span> </span>
+                  <h5>
+                    Is it cheaper to rent a car at the airport or off-site?
+                  </h5>
+                </div>
+                <div class="faqItem__body tabEvent" id="tab-3">
+                  <p>
+                    Venenatis, fames a a, in. Morbi pellentesque lacus, purus in
+                    tristique justo, pretium egestas. Commodo leo nisl
+                    consectetur nisi, tortor, erat sit at aliquet. Ultrices in
+                    aliquam maecenas cursus. Sed enim cursus augue quis risus.
+                  </p>
+                </div>
+              </div>
+              <div class="faqItem">
+                <div class="faqItem__head tabBtn" data-tab="#tab-4">
+                  <span> </span>
+                  <h5>
+                    Is it cheaper to rent a car at the airport or off-site?
+                  </h5>
+                </div>
+                <div class="faqItem__body tabEvent" id="tab-4">
+                  <p>
+                    Venenatis, fames a a, in. Morbi pellentesque lacus, purus in
+                    tristique justo, pretium egestas. Commodo leo nisl
+                    consectetur nisi, tortor, erat sit at aliquet. Ultrices in
+                    aliquam maecenas cursus. Sed enim cursus augue quis risus.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- faq end
+=========================================== -->
+      <!-- footer start
+    =========================================== -->
+      <footer class="footer">
+        <div class="auto__container">
+          <div class="footer__inner">
+            <div class="footer__inner-row">
+              <div class="footer__inner-main">
+                <div class="footer__inner-logo">
+                  <img src="./images/footer-logo.svg" alt="logo" />
+                </div>
+                <p class="sm">
+                  Built by car rental pros and driven by a mission to make car
+                  rentals simpler, smarter, and better for travellers and local
+                  businesses alike.
+                </p>
+              </div>
+              <div class="footer__inner-links">
+                <div class="footer__inner-col">
+                  <h6>Quick links</h6>
+                  <a href="#"> About Us </a>
+                  <a href="#"> Locations </a>
+                  <a href="#"> Manage Booking </a>
+                  <a href="#"> Contact Us </a>
+                  <a href="#"> Blog </a>
+                </div>
+                <div class="footer__inner-col">
+                  <h5>Institutional</h5>
+                  <a href="#"> Our story </a>
+                  <a href="#"> Careers </a>
+                  <a href="#"> Franchise </a>
+                  <a href="#"> Affiliate </a>
+                </div>
+              </div>
+            </div>
+            <div class="footer__inner-social">
+              <a href="#" class="sm">
+                <svg>
+                  <use xlink:href="#facebook"></use>
+                </svg>
+              </a>
+              <a href="#">
+                <svg>
+                  <use xlink:href="#twitter"></use>
+                </svg>
+              </a>
+              <a href="#">
+                <svg>
+                  <use xlink:href="#instagram"></use>
+                </svg>
+              </a>
+              <a href="#">
+                <svg>
+                  <use xlink:href="#linkedin"></use>
+                </svg>
+              </a>
+              <a href="#" class="big">
+                <svg>
+                  <use xlink:href="#youtube"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="footer__inner-copy">
+              <p class="sm">
+                Copyright © 2025 <br />
+                Final Rentals | All rights reserved <span>|</span>
+                <a href="#"> Terms and conditions </a> <span>|</span>
+                <a href="#"> Privacy policy </a> <span>|</span>
+                <a href="#"> Terms of use </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end
+    =========================================== -->
+    </main>
+    <div class="locFinder__wrapper modall" id="modal-1">
+      <div class="locFinder">
+        <div class="locFinder__head">
+          <h3>Location finder</h3>
+          <div class="locFinder__close modallClose" data-modal="modal-1">
+            <img src="./images/icons/close.svg" alt="" />
+          </div>
+        </div>
+        <div class="locFinder__body content1 active">
+          <div class="input__outer">
+            <div class="input__label">
+              <p>Pick your city</p>
+            </div>
+            <div class="input">
+              <span>
+                <img src="./images/icons/location.svg" alt="" />
+              </span>
+              <input type="text" placeholder="Your city" />
+              <button type="button">
+                <img src="./images/icons/search.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <ul class="locFinder__country">
+            <li>
+              <button type="button">
+                <span>
+                  <img src="./images/icons/flags/fr.png" alt="" />
+                </span>
+                <h5>France</h5>
+                <svg>
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <span>
+                  <img src="./images/icons/flags/fr.png" alt="" />
+                </span>
+                <h5>France</h5>
+                <svg>
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <span>
+                  <img src="./images/icons/flags/fr.png" alt="" />
+                </span>
+                <h5>France</h5>
+                <svg>
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <span>
+                  <img src="./images/icons/flags/fr.png" alt="" />
+                </span>
+                <h5>France</h5>
+                <svg>
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <span>
+                  <img src="./images/icons/flags/fr.png" alt="" />
+                </span>
+                <h5>France</h5>
+                <svg>
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="locFinder__body content2">
+          <div class="input__outer">
+            <div class="input__label">
+              <h5 class="backBtn1">France</h5>
+              <svg>
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+              <p>Pick your location</p>
+            </div>
+            <div class="input">
+              <span>
+                <img src="./images/icons/location.svg" alt="" />
+              </span>
+              <input type="text" placeholder="Your city" />
+              <button type="button">
+                <img src="./images/icons/search.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <ul class="locFinder__list">
+            <li>
+              <button type="button">
+                <h5>Paris</h5>
+                <svg>
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <h5>Nice</h5>
+                <svg>
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <h5>Lyon</h5>
+                <svg>
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <h5>Marseille</h5>
+                <svg>
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <h5>Strasbourg</h5>
+                <svg>
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="locFinder__body content3">
+          <div class="input__outer">
+            <div class="input__label">
+              <h5 class="backBtn1">France</h5>
+              <svg>
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+              <h5 class="backBtn2">Paris</h5>
+              <svg>
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+              <p>Pick your location</p>
+            </div>
+            <div class="input">
+              <span>
+                <img src="./images/icons/location.svg" alt="" />
+              </span>
+              <input type="text" placeholder="Your Location" />
+              <button type="button">
+                <img src="./images/icons/search.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <ul class="locFinder__list">
+            <li>
+              <button type="button">
+                <h5>Paris Airport</h5>
+                <svg>
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <h5>Paris Airport</h5>
+                <svg>
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <h5>Paris Airport</h5>
+                <svg>
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <h5>Paris Airport</h5>
+                <svg>
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <h5>Paris Airport</h5>
+                <svg>
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Sprites
+    =========================================== -->
+    <svg style="display: none">
+      <symbol id="arrowRight" viewBox="0 0 21 21" fill="none">
+        <path
+          d="M10.74 3.39258L17.7907 10.4433L10.74 17.494"
+          stroke="currentColor"
+          stroke-width="1.4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M17.7906 10.4434L2.79071 10.4434"
+          stroke="currentColor"
+          stroke-width="1.4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+      <symbol id="linkedin" viewBox="0 0 18 18" fill="none">
+        <path
+          d="M0 1.99134C0 1.41413 0.202708 0.937939 0.608108 0.56277C1.01351 0.187584 1.54055 0 2.18919 0C2.82626 0 3.34169 0.184693 3.73552 0.554112C4.14092 0.935065 4.34363 1.43145 4.34363 2.04329C4.34363 2.5974 4.14672 3.05915 3.7529 3.42857C3.3475 3.80952 2.81467 4 2.15444 4H2.13707C1.49999 4 0.984562 3.80952 0.590734 3.42857C0.196905 3.04762 0 2.56854 0 1.99134ZM0.225869 17.1429V5.57576H4.08301V17.1429H0.225869ZM6.22008 17.1429H10.0772V10.684C10.0772 10.2799 10.1236 9.96824 10.2162 9.74891C10.3784 9.35641 10.6245 9.02452 10.9546 8.75324C11.2847 8.48195 11.6988 8.34632 12.1969 8.34632C13.4942 8.34632 14.1429 9.21788 14.1429 10.961V17.1429H18V10.5108C18 8.8023 17.5946 7.50649 16.7838 6.62337C15.973 5.74026 14.9015 5.2987 13.5695 5.2987C12.0753 5.2987 10.9112 5.93939 10.0772 7.22078V7.25541H10.0598L10.0772 7.22078V5.57576H6.22008C6.24324 5.94516 6.25483 7.09378 6.25483 9.02164C6.25483 10.9495 6.24324 13.6565 6.22008 17.1429Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="instagram" viewBox="0 0 18 18" fill="none">
+        <path
+          d="M9 0C12.5951 0 14.3928 -0.000195435 15.6875 0.856445C16.2657 1.239 16.761 1.73434 17.1436 2.3125C18.0002 3.60723 18 5.40493 18 9C18 12.5951 18.0002 14.3928 17.1436 15.6875C16.761 16.2657 16.2657 16.761 15.6875 17.1436C14.3928 18.0002 12.5951 18 9 18C5.40493 18 3.60723 18.0002 2.3125 17.1436C1.73434 16.761 1.239 16.2657 0.856445 15.6875C-0.000195435 14.3928 0 12.5951 0 9C0 5.40493 -0.000195544 3.60723 0.856445 2.3125C1.239 1.73434 1.73434 1.239 2.3125 0.856445C3.60723 -0.000195545 5.40493 0 9 0ZM8.99902 4.34082C6.42589 4.34093 4.34 6.42688 4.33984 9C4.33984 11.5733 6.4258 13.66 8.99902 13.6602C11.5723 13.6602 13.6582 11.5733 13.6582 9C13.658 6.42681 11.5722 4.34082 8.99902 4.34082ZM8.99902 5.91699C10.7016 5.91699 12.0819 7.29744 12.082 9C12.082 10.7027 10.7017 12.083 8.99902 12.083C7.29642 12.0829 5.91602 10.7026 5.91602 9C5.91617 7.2975 7.29652 5.9171 8.99902 5.91699ZM13.8408 3.01172C13.2363 3.01177 12.7463 3.50198 12.7461 4.10645C12.7461 4.71107 13.2362 5.20112 13.8408 5.20117C14.4455 5.20117 14.9355 4.7111 14.9355 4.10645C14.9354 3.50195 14.4454 3.01172 13.8408 3.01172Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="facebook" viewBox="0 0 10 18" fill="none">
+        <path
+          d="M6.37296 18V9.78936H9.26765L9.70104 6.5895H6.37288V4.54653C6.37288 3.6201 6.64305 2.98879 8.0385 2.98879L9.81819 2.98799V0.126072C9.51038 0.0871459 8.45386 0 7.22488 0C4.65886 0 2.90212 1.49118 2.90212 4.22972V6.5895H0V9.78936H2.90212V17.9999H6.37296V18Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="twitter" viewBox="0 0 18 15" fill="none">
+        <path
+          d="M12.0271 0.00324168V0H12.8711L13.1794 0.0615919C13.385 0.101578 13.5717 0.15398 13.7394 0.218814C13.9071 0.283647 14.0694 0.359292 14.2263 0.445731C14.3832 0.532171 14.5255 0.620247 14.6532 0.709928C14.7798 0.79854 14.8934 0.892548 14.9941 0.991955C15.0936 1.09245 15.2489 1.11838 15.4599 1.06975C15.6709 1.02113 15.8981 0.953589 16.1416 0.86715C16.385 0.78071 16.6258 0.68346 16.8638 0.575399C17.1019 0.467337 17.2469 0.398727 17.2988 0.369552C17.3497 0.339307 17.3768 0.323098 17.38 0.320926L17.3832 0.316064L17.3995 0.30796L17.4157 0.299856L17.4319 0.291751L17.4482 0.283647L17.4514 0.278785L17.4563 0.275543L17.4612 0.272301L17.4644 0.267439L17.4806 0.262576L17.4968 0.259335L17.4936 0.283647L17.4887 0.30796L17.4806 0.332272L17.4725 0.356585L17.4644 0.372793L17.4563 0.389002L17.4482 0.413314C17.4427 0.429523 17.4373 0.451129 17.4319 0.478148C17.4265 0.505167 17.3751 0.613213 17.2777 0.802316C17.1803 0.99142 17.0586 1.18321 16.9125 1.37771C16.7665 1.57222 16.6355 1.71916 16.5198 1.81858C16.4029 1.91908 16.3255 1.98931 16.2876 2.02929C16.2498 2.07035 16.2038 2.10816 16.1497 2.14275L16.0685 2.19624L16.0523 2.20434L16.0361 2.21245L16.0328 2.21731L16.028 2.22055L16.0231 2.22379L16.0198 2.22866L16.0036 2.23676L15.9874 2.24486L15.9841 2.24973L15.9793 2.25297L15.9744 2.25621L15.9711 2.26107L15.9679 2.26594L15.963 2.26918L15.9582 2.27242L15.9549 2.27728H16.0361L16.4905 2.18003C16.7935 2.1152 17.083 2.03686 17.3589 1.94501L17.7971 1.79913L17.8458 1.78292L17.8702 1.77482L17.8864 1.76672L17.9026 1.75861L17.9188 1.75051L17.9351 1.7424L17.9675 1.73754L18 1.7343V1.76672L17.9919 1.76996L17.9838 1.77482L17.9805 1.77968L17.9757 1.78292L17.9708 1.78617L17.9675 1.79103L17.9643 1.79589L17.9594 1.79913L17.9546 1.80237L17.9513 1.80724L17.9481 1.8121L17.9432 1.81534L17.9351 1.83155L17.927 1.84776L17.9221 1.851C17.9199 1.85424 17.8512 1.94608 17.716 2.12654C17.5807 2.30808 17.5077 2.39991 17.4968 2.40209C17.486 2.40533 17.4709 2.42154 17.4514 2.45071C17.433 2.48096 17.3183 2.60145 17.1073 2.81216C16.8963 3.02287 16.6897 3.21033 16.4873 3.37459C16.2839 3.53992 16.1811 3.74306 16.1789 3.98403C16.1757 4.22391 16.1632 4.49514 16.1416 4.79769C16.1199 5.10025 16.0794 5.42711 16.0198 5.7783C15.9603 6.12949 15.8684 6.52659 15.7439 6.96962C15.6195 7.41264 15.468 7.84487 15.2894 8.26629C15.1109 8.68771 14.9243 9.0659 14.7295 9.40088C14.5347 9.73586 14.3562 10.0195 14.1939 10.2518C14.0316 10.4841 13.8666 10.7029 13.6988 10.9083C13.5311 11.1136 13.319 11.3448 13.0626 11.602C12.8051 11.8581 12.6644 11.9985 12.6406 12.0234C12.6157 12.0472 12.5097 12.1358 12.3225 12.2892C12.1363 12.4437 11.9362 12.5982 11.7219 12.7528C11.5088 12.9062 11.3129 13.0343 11.1344 13.1369C10.9558 13.2396 10.7405 13.3568 10.4884 13.4886C10.2373 13.6215 9.96573 13.7447 9.67358 13.8582C9.38142 13.9716 9.07304 14.077 8.74842 14.1743C8.42381 14.2715 8.11001 14.3471 7.80703 14.4012C7.50407 14.4552 7.16051 14.5011 6.77637 14.5389L6.20018 14.5957V14.6038H5.14518V14.5957L5.00721 14.5876C4.91525 14.5822 4.8395 14.5768 4.77998 14.5714C4.72048 14.566 4.49594 14.5362 4.1064 14.4822C3.71686 14.4282 3.41119 14.3742 3.18936 14.3201C2.96755 14.2661 2.63751 14.1634 2.19928 14.0122C1.76105 13.8609 1.38611 13.708 1.07448 13.5535C0.763937 13.4 0.569167 13.3028 0.490171 13.2617C0.412263 13.2217 0.324617 13.172 0.227232 13.1126L0.0811542 13.0235L0.0779243 13.0186L0.0730388 13.0154L0.0681695 13.0121L0.0649234 13.0072L0.0486925 12.9991L0.0324617 12.991L0.0292317 12.9862L0.0243463 12.9829L0.019477 12.9797L0.0162308 12.9748L0.0130009 12.97L0.00811542 12.9667H0V12.9343L0.0162308 12.9376L0.0324617 12.9424L0.1055 12.9505C0.154193 12.9559 0.28675 12.964 0.503156 12.9748C0.719578 12.9856 0.949504 12.9856 1.19297 12.9748C1.43643 12.964 1.68531 12.9397 1.93959 12.9019C2.19387 12.8641 2.49414 12.7992 2.8404 12.7074C3.18667 12.6155 3.50479 12.5064 3.79479 12.38C4.08369 12.2525 4.28927 12.1574 4.41156 12.0947C4.53274 12.0331 4.71777 11.9186 4.96664 11.7511L5.33995 11.4999L5.34319 11.495L5.34806 11.4918L5.35295 11.4885L5.35618 11.4837L5.35942 11.4788L5.36429 11.4756L5.36918 11.4723L5.37241 11.4674L5.38864 11.4626L5.40487 11.4593L5.40812 11.4431L5.41298 11.4269L5.41787 11.4237L5.4211 11.4188L5.29125 11.4107C5.20469 11.4053 5.12083 11.3999 5.03968 11.3945C4.95852 11.3891 4.83139 11.3648 4.65825 11.3216C4.48513 11.2783 4.29848 11.2135 4.09829 11.1271C3.89811 11.0406 3.70334 10.938 3.51398 10.8191C3.32463 10.7003 3.18774 10.6014 3.10334 10.5225C3.02002 10.4447 2.91181 10.3345 2.77872 10.1918C2.64671 10.0481 2.53201 9.90063 2.43463 9.74936C2.33724 9.59808 2.24419 9.42355 2.15547 9.22583L2.02074 8.93083L2.01262 8.90652L2.00451 8.88221L1.99964 8.866L1.99639 8.84979L2.02074 8.85303L2.04509 8.85789L2.22362 8.88221C2.34266 8.89842 2.52932 8.90381 2.78359 8.89842C3.03788 8.89302 3.21371 8.88221 3.31109 8.866C3.40848 8.84979 3.46799 8.83898 3.48963 8.83358L3.52209 8.82548L3.56267 8.81737L3.60325 8.80927L3.60649 8.80441L3.61136 8.80117L3.61625 8.79792L3.61948 8.79306L3.58702 8.78496L3.55455 8.77685L3.52209 8.76875L3.48963 8.76064L3.45717 8.75254C3.43553 8.74714 3.39767 8.73633 3.34355 8.72012C3.28946 8.70392 3.14338 8.64448 2.90532 8.54183C2.66728 8.43918 2.47791 8.33923 2.33724 8.24198C2.19622 8.14444 2.06176 8.03778 1.93472 7.92267C1.80812 7.80597 1.66908 7.65577 1.51758 7.47208C1.3661 7.28839 1.23085 7.07497 1.11181 6.83184C0.992792 6.58872 0.903522 6.3564 0.844004 6.13488C0.784724 5.91467 0.745615 5.68952 0.727158 5.46223L0.697926 5.12186L0.714157 5.1251L0.730388 5.12996L0.746619 5.13807L0.762849 5.14617L0.77908 5.15427L0.795311 5.16238L1.04689 5.27584C1.21462 5.35148 1.42291 5.41632 1.67178 5.47034C1.92066 5.52436 2.06943 5.55409 2.11812 5.55948L2.19116 5.56759H2.33724L2.33401 5.56273L2.32913 5.55948L2.32426 5.55624L2.32101 5.55138L2.31778 5.54652L2.31289 5.54328L2.30803 5.54003L2.30478 5.53517L2.28855 5.52707L2.27232 5.51896L2.26909 5.5141L2.2642 5.51086L2.25933 5.50762L2.25609 5.50275L2.23986 5.49465L2.22362 5.48655L2.22039 5.48168C2.21715 5.47951 2.17061 5.44494 2.08079 5.37795C1.99206 5.30987 1.89901 5.22181 1.80162 5.11375C1.70424 5.00569 1.60685 4.89223 1.50947 4.77338C1.4119 4.65425 1.32501 4.52679 1.24977 4.39248C1.17404 4.25741 1.09396 4.08559 1.00956 3.87705C0.926245 3.66958 0.862945 3.4605 0.819657 3.24979C0.776386 3.03908 0.75204 2.83107 0.746619 2.62576C0.741214 2.42045 0.746619 2.24486 0.762849 2.09899C0.77908 1.95311 0.811542 1.78832 0.860234 1.60463C0.908927 1.42094 0.979271 1.22644 1.07124 1.02113L1.2092 0.71317L1.21731 0.688857L1.22543 0.664545L1.23031 0.661303L1.23354 0.656441L1.23679 0.651578L1.24166 0.648336L1.24654 0.651578L1.24977 0.656441L1.25302 0.661303L1.25789 0.664545L1.26278 0.667786L1.26601 0.672649L1.26925 0.677511L1.27412 0.680753L1.28224 0.696962L1.29035 0.71317L1.29524 0.716412L1.29847 0.721274L1.51758 0.9644C1.66366 1.12648 1.8368 1.30748 2.03697 1.50738C2.23716 1.70728 2.34807 1.81101 2.3697 1.81858C2.39135 1.82722 2.41839 1.85207 2.45086 1.89314C2.48332 1.93313 2.59153 2.02876 2.77547 2.18003C2.95943 2.3313 3.20019 2.50691 3.49775 2.7068C3.79532 2.9067 4.12534 3.10391 4.48783 3.29841C4.85033 3.49291 5.23987 3.6685 5.65645 3.82518C6.07304 3.98187 6.3652 4.08452 6.53291 4.13314C6.70064 4.18177 6.98738 4.2439 7.39315 4.31954C7.79892 4.39519 8.10461 4.44381 8.31019 4.46542C8.51579 4.48702 8.65646 4.49945 8.73219 4.5027L8.84581 4.50594L8.84258 4.48163L8.83769 4.45731L8.80523 4.25471C8.78359 4.11964 8.77277 3.93054 8.77277 3.68741C8.77277 3.44429 8.79171 3.22008 8.82958 3.01476C8.86746 2.80945 8.92427 2.60145 9 2.39074C9.07575 2.18003 9.14988 2.01091 9.22236 1.88342C9.29595 1.75699 9.39225 1.61274 9.51127 1.45065C9.63031 1.28857 9.7845 1.12109 9.97385 0.948192C10.1632 0.775297 10.3796 0.621317 10.6231 0.486252C10.8665 0.351188 11.0911 0.248524 11.2967 0.178292C11.5023 0.108061 11.6754 0.0621268 11.8161 0.040521C11.9567 0.0189152 12.0271 0.00648336 12.0271 0.00324168Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="youtube" viewBox="0 0 20 14" fill="none">
+        <path
+          d="M10.3387 13.9782L6.27646 13.9023C4.96122 13.8758 3.64269 13.9286 2.35324 13.6546C0.391672 13.2451 0.252708 11.2372 0.107296 9.55291C-0.0930658 7.18507 -0.0154997 4.77425 0.362609 2.42618C0.576064 1.10866 1.4161 0.322489 2.71518 0.236939C7.10053 -0.0735363 11.515 -0.0367417 15.8907 0.108106C16.3528 0.121385 16.8181 0.19396 17.2738 0.276571C19.5231 0.679489 19.5779 2.95489 19.7237 4.87034C19.8691 6.80557 19.8077 8.75072 19.5298 10.6728C19.3068 12.2642 18.8802 13.5987 17.0798 13.7275C14.8241 13.896 12.6201 14.0316 10.358 13.9885C10.3581 13.9782 10.3451 13.9782 10.3387 13.9782ZM7.95048 9.94924C9.65038 8.95183 11.3179 7.97104 13.008 6.98032C11.305 5.9829 9.64066 5.00212 7.95048 4.01139V9.94924Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="chevron-botom" viewBox="0 0 24 24" fill="none">
+        <path
+          d="M11.9999 14.6615C11.8794 14.6615 11.7672 14.6423 11.6634 14.6038C11.5595 14.5654 11.4608 14.4993 11.3672 14.4057L6.87301 9.91152C6.73454 9.77307 6.66371 9.59904 6.66051 9.38942C6.65729 9.17981 6.72812 9.00257 6.87301 8.8577C7.01787 8.71283 7.1935 8.6404 7.3999 8.6404C7.6063 8.6404 7.78194 8.71283 7.9268 8.8577L11.9999 12.9308L16.073 8.8577C16.2115 8.71925 16.3855 8.64842 16.5951 8.6452C16.8047 8.642 16.9819 8.71283 17.1268 8.8577C17.2717 9.00257 17.3441 9.17821 17.3441 9.38462C17.3441 9.59102 17.2717 9.76666 17.1268 9.91152L12.6326 14.4057C12.539 14.4993 12.4403 14.5654 12.3364 14.6038C12.2326 14.6423 12.1204 14.6615 11.9999 14.6615Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="chevron-right" viewBox="0 0 12 12" fill="none">
+        <path
+          d="M7.22539 5.99994L3.55039 2.32494C3.42539 2.19994 3.36497 2.05411 3.36914 1.88744C3.37331 1.72078 3.43789 1.57494 3.56289 1.44994C3.68789 1.32494 3.83372 1.26244 4.00039 1.26244C4.16706 1.26244 4.31289 1.32494 4.43789 1.44994L8.28789 5.28744C8.38789 5.38744 8.46289 5.49994 8.51289 5.62494C8.56289 5.74994 8.58789 5.87494 8.58789 5.99994C8.58789 6.12494 8.56289 6.24994 8.51289 6.37494C8.46289 6.49994 8.38789 6.61244 8.28789 6.71244L4.43789 10.5624C4.31289 10.6874 4.16497 10.7479 3.99414 10.7437C3.82331 10.7395 3.67539 10.6749 3.55039 10.5499C3.42539 10.4249 3.36289 10.2791 3.36289 10.1124C3.36289 9.94578 3.42539 9.79994 3.55039 9.67494L7.22539 5.99994Z"
+          fill="currentColor"
+        />
+      </symbol>
+    </svg>
+    <!-- js
+    =========================================== -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/moment.js"></script>
+    <script src="./js/datepicker.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/modals.js"></script>
+    <script>
+      $(function () {
+        $('input[name="datetimes"]').daterangepicker(
+          {
+            timePicker: true,
+            locale: {
+              format: "DD MMM HH:mm A",
+            },
+          },
+          function (start, end, label) {
+            let startDate = start.format("DD MMM HH:mm A").toString();
+            let endDate = end.format("DD MMM HH:mm A").toString();
+            document.getElementById("startDate").innerHTML = startDate;
+            document.getElementById("endDate").innerHTML = endDate;
+          }
+        );
+      });
+    </script>
+  </body>
+</html>

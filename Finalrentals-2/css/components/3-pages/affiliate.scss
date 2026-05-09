@@ -1,0 +1,277 @@
+.affiliate {
+  padding: 64px 0 128px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  &Form {
+    width: calc(50% - 15px);
+    max-width: 560px;
+    padding: 40px;
+    background: $white;
+    box-shadow: 0px 2px 28px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    &.sm {
+      max-width: 584px;
+      .button {
+        width: unset;
+      }
+      .inputC {
+        &__outer {
+          max-width: 232px;
+        }
+      }
+    }
+    &__title {
+      margin-bottom: 16px;
+      h2 {
+        color: $black1;
+        font-weight: 500;
+      }
+    }
+    &__body {
+      display: none;
+      &.active {
+        display: block;
+      }
+    }
+    &__row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+    .inputC {
+      &__outer {
+        margin: 16px 0;
+        width: calc(50% - 10px);
+        max-width: 224px;
+        &.big {
+          width: 100%;
+          max-width: unset;
+        }
+      }
+    }
+    .button {
+      width: 100%;
+      background-color: $secondary;
+    }
+  }
+  &Content {
+    width: calc(50% - 15px);
+    max-width: 560px;
+    &.sm {
+      max-width: 536px;
+      .affiliate {
+        &Content {
+          &__col {
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            p {
+              color: $black3;
+            }
+          }
+        }
+      }
+      h4 {
+        margin-bottom: 12px;
+      }
+    }
+    &__top {
+      margin-bottom: 64px;
+    }
+    &__col {
+      padding-bottom: 48px;
+      margin-bottom: 48px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+      &:last-child {
+        border: unset;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+    }
+    &__social {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding-top: 12px;
+      a {
+        width: 24px;
+        height: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 24px;
+        &:hover {
+          opacity: 1;
+          svg {
+            color: $secondary;
+          }
+        }
+        &.sm {
+          width: 21px;
+        }
+        &.big {
+          width: 26px;
+        }
+        &:last-child {
+          margin: 0;
+        }
+        svg {
+          width: 100%;
+          height: 100%;
+          color: $secondary;
+          transition: 0.3s ease;
+        }
+      }
+    }
+    h3 {
+      color: $black1;
+      margin-bottom: 32px;
+    }
+    h4 {
+      margin-bottom: 32px;
+      color: $black2;
+    }
+    p {
+      color: $black2;
+      b {
+        font-weight: 700;
+      }
+    }
+    ul {
+      padding-left: 25px;
+      li {
+        list-style: disc;
+        color: $black2;
+      }
+    }
+  }
+  &Card {
+    padding: 32px;
+    background: #f6f6f6;
+    border-radius: 12px;
+    &__icon {
+      width: 64px;
+      height: 64px;
+      display: flex;
+      margin-bottom: 32px;
+      img {
+        width: 100%;
+      }
+    }
+    p {
+      font-weight: 700;
+      a {
+        color: $secondary;
+      }
+    }
+  }
+}
+// 1180px
+@mixin affiliate-xlg-xxlg {
+  .affiliate {
+    padding: 50px 0 100px;
+    &Form {
+      padding: 24px;
+    }
+    &Content {
+      &__top {
+        margin-bottom: 45px;
+      }
+      &.sm {
+        .affiliate {
+          &Content {
+            &__col {
+              margin-bottom: 30px;
+              padding-bottom: 30px;
+            }
+          }
+        }
+      }
+      &__col {
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+      }
+      h3,
+      h4 {
+        margin-bottom: 20px;
+      }
+    }
+    &Card {
+      padding: 24px;
+    }
+  }
+}
+// 930px
+@mixin affiliate-md-lg {
+  .affiliate {
+    &__inner {
+      flex-direction: column;
+    }
+    &Form {
+      width: 100%;
+      max-width: unset;
+      margin-bottom: 40px;
+      padding: 30px;
+      &.sm {
+        max-width: unset;
+        .inputC {
+          &__outer {
+            max-width: unset;
+          }
+        }
+      }
+      .inputC {
+        &__outer {
+          max-width: unset;
+        }
+      }
+    }
+    &Content {
+      width: 100%;
+      max-width: unset;
+      &.sm {
+        max-width: unset;
+      }
+    }
+  }
+}
+// 750px
+@mixin affiliate-sm-md {
+  .affiliate {
+    padding: 40px 0 80px;
+  }
+}
+// 540px
+@mixin affiliate-xsm-sm {
+  .affiliate {
+    padding: 40px 0 60px;
+    &Form {
+      padding: 20px;
+      margin-bottom: 30px;
+      .inputC {
+        &__outer {
+          width: 100%;
+          margin: 0 0 16px 0;
+          &:last-child {
+            margin: 0;
+          }
+        }
+      }
+    }
+    &Content {
+      h3,
+      h4 {
+        margin-bottom: 12px;
+      }
+    }
+    &Card {
+      padding: 20px;
+      &__icon {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

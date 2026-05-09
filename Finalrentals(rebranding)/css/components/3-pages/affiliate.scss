@@ -1,0 +1,270 @@
+.affiliate {
+  padding: 64px 0 128px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  &Form {
+    width: calc(50% - 15px);
+    max-width: 560px;
+    padding: 40px;
+    background: $white;
+    box-shadow: 0px 2px 28px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    &.sm {
+      max-width: 584px;
+      .button {
+        width: unset;
+      }
+      .inputC {
+        &__outer {
+          max-width: 232px;
+        }
+      }
+    }
+    &__title {
+      margin-bottom: 40px;
+      h3 {
+        color: $secondary;
+        font-weight: 500;
+      }
+    }
+    &__body {
+      display: none;
+      &.active {
+        display: block;
+      }
+    }
+    &__col {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
+    &__foot {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .inputC {
+      width: 100%;
+      margin-bottom: 16px;
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+  &Content {
+    width: calc(50% - 15px);
+    max-width: 560px;
+    &.sm {
+      max-width: 536px;
+      .affiliate {
+        &Content {
+          &__col {
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            p {
+              color: rgba($secondary, 0.6);
+            }
+          }
+        }
+      }
+      h4 {
+        margin-bottom: 12px;
+      }
+    }
+    &__top {
+      margin-bottom: 64px;
+    }
+    &__col {
+      padding-bottom: 48px;
+      margin-bottom: 48px;
+      border-bottom: 1px solid #d4d2e3;
+      &:last-child {
+        border: unset;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+    }
+    &__social {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding-top: 12px;
+      a {
+        width: 24px;
+        height: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 24px;
+        color: $blue;
+        &:hover {
+          opacity: 1;
+          color: $secondary;
+        }
+        &.sm {
+          width: 21px;
+        }
+        &.big {
+          width: 26px;
+        }
+        &:last-child {
+          margin: 0;
+        }
+        svg {
+          width: 100%;
+          height: 100%;
+          transition: 0.3s ease;
+        }
+      }
+    }
+    h3 {
+      color: $secondary;
+      margin-bottom: 32px;
+    }
+    h6 {
+      margin-bottom: 12px;
+      color: rgba($secondary, 0.8);
+    }
+    p {
+      color: rgba($secondary, 0.8);
+      b {
+        font-weight: 700;
+      }
+    }
+    ul {
+      padding-left: 25px;
+      li {
+        list-style: disc;
+        color: rgba($secondary, 0.8);
+      }
+    }
+  }
+  &Card {
+    padding: 32px;
+    border: 1px solid #d4d2e3;
+    border-radius: 12px;
+    &__icon {
+      width: 113px;
+      height: 113px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 32px;
+      align-items: center;
+      border-radius: 50%;
+      background: $secondary;
+      img {
+        width: 55%;
+      }
+    }
+    p {
+      a {
+        color: $blue;
+        font-weight: 700;
+      }
+    }
+  }
+}
+// 1180px
+@mixin affiliate-xlg-xxlg {
+  .affiliate {
+    padding: 80px 0 100px;
+    &Form {
+      padding: 24px;
+    }
+    &Content {
+      &__top {
+        margin-bottom: 45px;
+      }
+      &.sm {
+        .affiliate {
+          &Content {
+            &__col {
+              margin-bottom: 40px;
+              padding-bottom: 40px;
+            }
+          }
+        }
+      }
+      h3,
+      h4 {
+        margin-bottom: 20px;
+      }
+    }
+    &Card {
+      padding: 24px;
+    }
+  }
+}
+// 930px
+@mixin affiliate-md-lg {
+  .affiliate {
+    &__inner {
+      flex-direction: column;
+    }
+    &Form {
+      width: 100%;
+      max-width: unset;
+      margin-bottom: 100px;
+      padding: 30px;
+      &.sm {
+        max-width: unset;
+        .inputC {
+          &__outer {
+            max-width: unset;
+          }
+        }
+      }
+      .inputC {
+        &__outer {
+          max-width: unset;
+        }
+      }
+    }
+    &Content {
+      width: 100%;
+      max-width: unset;
+      &.sm {
+        max-width: unset;
+      }
+    }
+  }
+}
+// 750px
+@mixin affiliate-sm-md {
+  .affiliate {
+    padding: 80px 0;
+  }
+}
+// 540px
+@mixin affiliate-xsm-sm {
+  .affiliate {
+    padding: 80px 0 50px;
+    &Form {
+      padding: 0;
+      background: unset;
+      box-shadow: unset;
+      .inputC {
+        &__outer {
+          width: 100%;
+          margin: 0 0 16px 0;
+          &:last-child {
+            margin: 0;
+          }
+        }
+      }
+    }
+    &Content {
+      h3,
+      h4 {
+        margin-bottom: 12px;
+      }
+    }
+    &Card {
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}

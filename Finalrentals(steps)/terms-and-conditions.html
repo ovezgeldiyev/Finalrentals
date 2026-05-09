@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&family=Knewave&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Terms and Conditions</title>
+  </head>
+
+  <body>
+    <!-- header start
+    =========================================== -->
+    <header class="header" id="header">
+      <div class="auto__container">
+        <div class="header__inner">
+          <a href="index.html" class="header__inner-logo">
+            <img src="./images/logo.svg" alt="" />
+          </a>
+          <nav class="nav" id="menu">
+            <div class="nav__inner">
+              <ul class="nav__inner-links">
+                <li>
+                  <a href="locations.html" class="nav__inner-link">
+                    Locations
+                  </a>
+                </li>
+                <li>
+                  <a href="blog.html" class="nav__inner-link"> Blog </a>
+                </li>
+                <li>
+                  <button
+                    type="button"
+                    class="nav__inner-link dropBtn"
+                    data-drop="#drop-1"
+                  >
+                    Global Destinations
+                    <svg>
+                      <use xlink:href="#chevron-botom"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li>
+                  <a href="#" class="nav__inner-link"> My Bookings</a>
+                </li>
+              </ul>
+              <div class="nav__inner-side">
+                <div class="nav__inner-selects">
+                  <div class="lang">
+                    <div class="lang__inner" id="langBtn">
+                      <div class="lang__icon">
+                        <img src="./images/icons/flags/uk-circle.png" alt="" />
+                      </div>
+                      <p>EN</p>
+                      <svg>
+                        <use xlink:href="#chevron-botom"></use>
+                      </svg>
+                    </div>
+                    <div class="langMenu" id="langMenu">
+                      <a href="#">
+                        <div class="lang__icon">
+                          <img
+                            src="./images/icons/flags/uk-circle.png"
+                            alt=""
+                          />
+                        </div>
+                        <p>EN</p>
+                      </a>
+                      <a href="#">
+                        <div class="lang__icon">
+                          <img src="./images/icons/lang/es.png" alt="" />
+                        </div>
+                        <p>ES</p>
+                      </a>
+                      <a href="#">
+                        <div class="lang__icon">
+                          <img src="./images/icons/lang/fr.png" alt="" />
+                        </div>
+                        <p>FR</p>
+                      </a>
+                      <a href="#">
+                        <div class="lang__icon">
+                          <img src="./images/icons/lang/de.png" alt="" />
+                        </div>
+                        <p>DE</p>
+                      </a>
+                      <a href="#">
+                        <div class="lang__icon">
+                          <img src="./images/icons/lang/it.png" alt="" />
+                        </div>
+                        <p>IT</p>
+                      </a>
+                      <a href="#">
+                        <div class="lang__icon">
+                          <img src="./images/icons/lang/pt.png" alt="" />
+                        </div>
+                        <p>PT</p>
+                      </a>
+                      <a href="#">
+                        <div class="lang__icon">
+                          <img src="./images/icons/lang/zh.png" alt="" />
+                        </div>
+                        <p>ZH</p>
+                      </a>
+                      <a href="#">
+                        <div class="lang__icon">
+                          <img src="./images/icons/lang/ja.png" alt="" />
+                        </div>
+                        <p>JA</p>
+                      </a>
+                      <a href="#">
+                        <div class="lang__icon">
+                          <img src="./images/icons/lang/ko.png" alt="" />
+                        </div>
+                        <p>KO</p>
+                      </a>
+                      <a href="#">
+                        <div class="lang__icon">
+                          <img src="./images/icons/lang/ar.png" alt="" />
+                        </div>
+                        <p>AR</p>
+                      </a>
+                      <a href="#">
+                        <div class="lang__icon">
+                          <img src="./images/icons/lang/ru.png" alt="" />
+                        </div>
+                        <p>RU</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="currency">
+                    <div class="currency__inner" id="currencyBtn">
+                      <p>USD</p>
+                      <svg>
+                        <use xlink:href="#chevron-botom"></use>
+                      </svg>
+                    </div>
+                    <div class="currencyMenu" id="currencyMenu">
+                      <a href="#">
+                        <p>USD</p>
+                      </a>
+                      <a href="#">
+                        <p>EUR</p>
+                      </a>
+                      <a href="#">
+                        <p>GBP</p>
+                      </a>
+                      <a href="#">
+                        <p>AED</p>
+                      </a>
+                      <a href="#">
+                        <p>SAR</p>
+                      </a>
+                      <a href="#">
+                        <p>CAD</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="burger" id="menuBtn">
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="drop dropEvent" id="drop-1">
+        <div class="auto__container">
+          <div class="drop__inner">
+            <div class="drop__inner-back dropClose">
+              <svg>
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+              Back
+            </div>
+            <div class="drop__inner-row">
+              <div class="drop__inner-col">
+                <div class="dropItem">
+                  <div class="dropItem__title">
+                    <h5>Africa</h5>
+                  </div>
+                  <div class="dropItem__list">
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/morocco.png" alt="" />
+                      </span>
+                      <p>Morocco</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/reunion.png" alt="" />
+                      </span>
+                      <p>Reunion</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="dropItem">
+                  <div class="dropItem__title">
+                    <h5>Asia</h5>
+                  </div>
+                  <div class="dropItem__list">
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/azerbaijan.png" alt="" />
+                      </span>
+                      <p>Azerbaijan</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/jordan.png" alt="" />
+                      </span>
+                      <p>Jordan</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/turkey.png" alt="" />
+                      </span>
+                      <p>Turkey</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/uae.png" alt="" />
+                      </span>
+                      <p>United Arab Emirates</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="drop__inner-col big">
+                <div class="dropItem">
+                  <div class="dropItem__title">
+                    <h5>The Americas</h5>
+                  </div>
+                  <div class="dropItem__row">
+                    <div class="dropItem__list sm">
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/antigua.png" alt="" />
+                        </span>
+                        <p>Antigua and Barbuda</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/bahamas.png" alt="" />
+                        </span>
+                        <p>Bahamas</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img
+                            src="./images/icons/flags/costa-rica.png"
+                            alt=""
+                          />
+                        </span>
+                        <p>Costa Rica</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img
+                            src="./images/icons/flags/dominican.png"
+                            alt=""
+                          />
+                        </span>
+                        <p>Dominican Republic</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/jamaica.png" alt="" />
+                        </span>
+                        <p>Jamaica</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/mexico.png" alt="" />
+                        </span>
+                        <p>Mexico</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img
+                            src="./images/icons/flags/puerto-rico.png"
+                            alt=""
+                          />
+                        </span>
+                        <p>Puerto Rico</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="dropItem__list sm">
+                      <a href="#">
+                        <span>
+                          <img
+                            src="./images/icons/flags/saint-lucia.png"
+                            alt=""
+                          />
+                        </span>
+                        <p>Saint Lucia</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img
+                            src="./images/icons/flags/sint-maarten.png"
+                            alt=""
+                          />
+                        </span>
+                        <p>Sint Maarten</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/suriname.png" alt="" />
+                        </span>
+                        <p>Suriname</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/trinidad.png" alt="" />
+                        </span>
+                        <p>Trinidad and Tobago</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img
+                            src="./images/icons/flags/turks-and-caicos.png"
+                            alt=""
+                          />
+                        </span>
+                        <p>Turks and Caicos</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <span>
+                          <img src="./images/icons/flags/us.png" alt="" />
+                        </span>
+                        <p>United States</p>
+                        <svg>
+                          <use xlink:href="#chevron-right"></use>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="drop__inner-col">
+                <div class="dropItem">
+                  <div class="dropItem__title">
+                    <h5>Europe</h5>
+                  </div>
+                  <div class="dropItem__list">
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/albania.png" alt="" />
+                      </span>
+                      <p>Albania</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/croatia.png" alt="" />
+                      </span>
+                      <p>Croatia</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/greece.png" alt="" />
+                      </span>
+                      <p>Greece</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/malta.png" alt="" />
+                      </span>
+                      <p>Malta</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/montenegro.png" alt="" />
+                      </span>
+                      <p>Montenegro</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/portugal.png" alt="" />
+                      </span>
+                      <p>Portugal</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/romania.png" alt="" />
+                      </span>
+                      <p>Romania</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <span>
+                        <img src="./images/icons/flags/serbia.png" alt="" />
+                      </span>
+                      <p>Serbia</p>
+                      <svg>
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end
+    =========================================== -->
+    <main class="main">
+      <!-- terms start
+    =========================================== -->
+      <section class="terms">
+        <div class="auto__container">
+          <div class="terms__inner">
+            <div class="terms__inner-title">
+              <h1>Terms and Conditions</h1>
+            </div>
+            <div class="terms__inner-col">
+              <div class="termsContent">
+                <h3>Terms and Conditions for Finalrentals.com</h3>
+                <p>
+                  Finalrentals.com and its functionalities, design, and process
+                  are by Finalrentals Limited, a limited liability company based
+                  out of Cardiff, United Kingdom.
+                  <br />
+                  <br />
+                  The Website of Finalrentals.com Owner, including subsidiaries
+                  and affiliates (“Website of Finalrentals.com” or “Website of
+                  Finalrentals.com Owner” or “we” or “us” or “our”), provides
+                  the information contained on the website of Finalrentals.com
+                  or any of the pages comprising the website of Finalrentals.com
+                  (“website of Finalrentals.com”) to visitors (“visitors”)
+                  (cumulatively referred to as “you” or “your” from now on)
+                  subject to the terms and conditions set out in this website of
+                  Finalrentals.com terms and conditions, the privacy policy and
+                  any other relevant terms and conditions, policies and notices
+                  which may apply to a specific section or module of the website
+                  of Finalrentals.com.
+                </p>
+              </div>
+              <div class="termsContent">
+                <h3>Welcome to Finalrentals.com</h3>
+                <p>
+                  The Website of Finalrentals.com, its content, and its
+                  associated services (collectively “Website of
+                  Finalrentals.com”) is a service.
+                  <br />
+                  <br />
+                  Finalrentals.com is an online car rental portal that claims to
+                  own no cars whatsoever, but it connects customers directly
+                  with car rental service providers. It does not operate car
+                  rental services of its own. It has tied up with many car
+                  rental service providers (s) to provide car rental services to
+                  customers.
+                  <br />
+                  <br />
+                  Finalrentals.com does not assume any responsibility for the
+                  service quality and satisfaction of the services provided by
+                  car rental companies.
+                  <br />
+                  <br />
+                  The website advises customers to select car rental service
+                  providers they are familiar with and whose service they are
+                  comfortable with.
+                </p>
+              </div>
+              <div class="termsContent">
+                <h3>Section 01 Finalrentals.com responsibilities include:</h3>
+                <ol>
+                  <li>
+                    Clause 1 Issuing a car rental voucher via email after
+                    booking a car rental.
+                  </li>
+                  <li>
+                    Clause 2 Providing customer support and information in case
+                    of any delay(s) / inconvenience before the car is handed
+                    over to the customer.
+                  </li>
+                </ol>
+              </div>
+              <div class="termsContent">
+                <h3>
+                  Section 02 Finalrentals.com does not take <br />responsibility
+                  for the following:
+                </h3>
+                <ol>
+                  <li>
+                    You agree that any reservation made with a Car Rental
+                    Service Provider is between you and the Car Rental Service
+                    Provider only and does not include Finalrentals.com. You
+                    further agree that any dispute concerning a reservation,
+                    payments/service of the car, and condition of the car made
+                    to the Car Rental Service Provider, and use of a car rental
+                    service is between you and the car rental Service Provider
+                    only and shall not include Finalrentals.com.
+                  </li>
+                  <li>
+                    The Car Rental Service Provider is responsible for the
+                    information made available to you and for the fulfillment of
+                    the reservation. Any reservation is subject to the terms and
+                    conditions offered by the Car Rental Service Provider and is
+                    separate from this Agreement. You, as a customer, must
+                    accept the terms and conditions of the car rental supplier.
+                  </li>
+                  <li>
+                    You agree to abide by the Car Rental Service Provider’s
+                    terms and conditions of the reservation, including, without
+                    limitation, payment of any amounts when due and in
+                    compliance with the Car Rental Service Provider’s rules and
+                    restrictions regarding availability and use of fares,
+                    products, or services. Your failure to abide by the Car
+                    Rental Service Provider’s terms and conditions of the
+                    reservation may result in cancellation of your reservation
+                    or denial of access to and forfeiting of money paid for such
+                    reservation. You, and you alone, are responsible for all
+                    charges, fees, duties, taxes, and assessments arising from
+                    your use of this Website of Finalrentals.com.
+                  </li>
+                  <li>
+                    You understand that the Website of Finalrentals.com may
+                    contain links to third-party websites, applications, or
+                    services that Finalrentals.com does not own or control,
+                    including, without limitation, Car Rental Service Providers’
+                    professional services. You agree that Finalrentals.com will
+                    not be held responsible or liable for the content of
+                    third-party websites, applications, or services as well as
+                    Car Rental Service Providers’ information and/or
+                    advertisements and that Finalrentals.com’s inclusion of
+                    those websites, applications, or services as well as Car
+                    Rental Service Provider information and/or promotions within
+                    its Website does not constitute Finalrentals.com’s
+                    endorsement of, the recommendation of, or affiliation with
+                    any of those websites, applications, or services and/or Car
+                    Rental Service Provider.
+                  </li>
+                  <li>
+                    If the employees of the car rental Service Providers
+                    demonstrate rude behaviour or misbehave with the customers.
+                  </li>
+                  <li>
+                    If the car rental Service Provider cancels the booking for
+                    reasons unknown.
+                  </li>
+                  <li>
+                    If a customer’s baggage gets lost/stolen/damaged in the
+                    event of travel.
+                  </li>
+                  <li>
+                    If the car gets stolen or damaged and if a life is lost.
+                  </li>
+                  <li>
+                    On the date of the car rental, the passengers are requested
+                    to call the car rental service provider’s contact number
+                    mentioned in the voucher and reconfirm their pick-up point
+                    and timing.
+                  </li>
+                  <li>
+                    At the time of car rental, the customers may be required to
+                    furnish the following:
+                  </li>
+                  <li>A copy of the car rental voucher.</li>
+                  <li>
+                    A copy of the Photo identity proof of the traveller
+                    providing names while making the booking. Including driver's
+                    license, Passport Copy, Visa Page Copy, and National ID.
+                  </li>
+                  <li>
+                    You need to provide a Pre-Authentication of the credit card.
+                    It would be between the car rental Service Provider and the
+                    customer. In any case, if you don’t have a sufficient
+                    balance or are unwilling to provide the credit card
+                    pre-authentication, the car rental Service Provider has the
+                    right to deny the book, for which Finalrentals.com won’t be
+                    held responsible.
+                  </li>
+                  <li>
+                    If you cannot provide a valid credit card at the time of car
+                    collection or delivery, Finalrentals will not refund any
+                    payment made to the Website, mentioning that a credit card
+                    is a must for booking.
+                  </li>
+                  <li>
+                    If presenting the car rental voucher by someone other than
+                    the person entitled to be carried there-under or to refund
+                    in connection in addition to that, Finalrentals.com or any
+                    of its travel partners shall not be liable to the person so
+                    entitled.
+                  </li>
+                  <li>
+                    Customers now consent to receive communications by SMS,
+                    Emails, or calls from FINARENTALS.COM concerning services
+                    they provide.
+                  </li>
+                  <li>
+                    Finalrentals.com is a booking service that connects the
+                    customer with the supplier. It is not liable for the loss of
+                    goods or property of customers for any acts, events, or
+                    incidents whatsoever beyond the control of the company.
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- terms end
+=========================================== -->
+      <!-- footer start
+    =========================================== -->
+      <footer class="footer">
+        <div class="auto__container">
+          <div class="footer__inner">
+            <div class="footer__inner-row">
+              <div class="footer__inner-main">
+                <div class="footer__inner-logo">
+                  <img src="./images/footer-logo.png" alt="" />
+                </div>
+                <p class="sm">
+                  With years of experience in the car rental market, seasoned
+                  car rental industry experts established Finalrentals.com with
+                  one goal.
+                </p>
+              </div>
+              <div class="footer__inner-side">
+                <div class="footer__inner-links">
+                  <div class="footer__inner-col">
+                    <h5>Quick Links</h5>
+                    <a href="#"> About Us </a>
+                    <a href="#"> Locations </a>
+                    <a href="#"> Manage Booking </a>
+                    <a href="#"> Contact Us </a>
+                    <a href="#"> Blog </a>
+                  </div>
+                  <div class="footer__inner-col">
+                    <h5>Institutional</h5>
+                    <a href="#"> Careers </a>
+                    <a href="#"> Franchise </a>
+                    <a href="#"> Affiliate </a>
+                  </div>
+                  <div class="footer__inner-col">
+                    <h5>Institutional</h5>
+                    <div class="footer__inner-social">
+                      <a href="#" class="sm">
+                        <svg>
+                          <use xlink:href="#linkedin"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <svg>
+                          <use xlink:href="#instagram"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <svg>
+                          <use xlink:href="#facebook"></use>
+                        </svg>
+                      </a>
+                      <a href="#">
+                        <svg>
+                          <use xlink:href="#twitter"></use>
+                        </svg>
+                      </a>
+                      <a href="#" class="big">
+                        <svg>
+                          <use xlink:href="#youtube"></use>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer__inner-copy">
+              <p class="sm">
+                Copyright © 2024 Finalrentals. All rights reserved.
+              </p>
+              <div class="footer__inner-terms">
+                <a href="#"> Privacy policy </a>
+                <a href="#"> Terms and conditions </a>
+                <a href="#"> Terms of use </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end
+    =========================================== -->
+    </main>
+    <!-- Sprites
+    =========================================== -->
+    <svg style="display: none">
+      <symbol id="linkedin" viewBox="0 0 18 20" fill="none">
+        <path
+          d="M3.91797 17.5H0.289062V5.81641H3.91797V17.5ZM2.10156 4.22266C0.941406 4.22266 0 3.26172 0 2.10156C0 1.54419 0.221414 1.00965 0.615533 0.615533C1.00965 0.221414 1.54419 0 2.10156 0C2.65893 0 3.19347 0.221414 3.58759 0.615533C3.98171 1.00965 4.20312 1.54419 4.20312 2.10156C4.20312 3.26172 3.26172 4.22266 2.10156 4.22266ZM17.4961 17.5H13.875V11.8125C13.875 10.457 13.8477 8.71875 11.9883 8.71875C10.1016 8.71875 9.8125 10.1914 9.8125 11.7148V17.5H6.1875V5.81641H9.66797V7.41016H9.71875C10.2031 6.49219 11.3867 5.52344 13.1523 5.52344C16.8242 5.52344 17.5 7.94141 17.5 11.082V17.5H17.4961Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="instagram" viewBox="0 0 21 20" fill="none">
+        <path
+          d="M10.5 1.80723C13.1506 1.80723 13.5121 1.80723 14.5964 1.80723C15.5602 1.80723 16.0422 2.04819 16.4036 2.16868C16.8855 2.40964 17.247 2.53012 17.6084 2.89157C17.9699 3.25301 18.2108 3.61446 18.3313 4.09639C18.4518 4.45783 18.5723 4.93976 18.6928 5.90362C18.6928 6.98795 18.6928 7.22892 18.6928 10C18.6928 12.7711 18.6928 13.0121 18.6928 14.0964C18.6928 15.0602 18.4518 15.5422 18.3313 15.9036C18.0904 16.3855 17.9699 16.747 17.6084 17.1084C17.247 17.4699 16.8855 17.7108 16.4036 17.8313C16.0422 17.9518 15.5602 18.0723 14.5964 18.1928C13.5121 18.1928 13.2711 18.1928 10.5 18.1928C7.72892 18.1928 7.48795 18.1928 6.40362 18.1928C5.43976 18.1928 4.95783 17.9518 4.59639 17.8313C4.11446 17.5904 3.75301 17.4699 3.39157 17.1084C3.03012 16.747 2.78916 16.3855 2.66868 15.9036C2.54819 15.5422 2.42771 15.0602 2.30723 14.0964C2.30723 13.0121 2.30723 12.7711 2.30723 10C2.30723 7.22892 2.30723 6.98795 2.30723 5.90362C2.30723 4.93976 2.54819 4.45783 2.66868 4.09639C2.90964 3.61446 3.03012 3.25301 3.39157 2.89157C3.75301 2.53012 4.11446 2.28916 4.59639 2.16868C4.95783 2.04819 5.43976 1.92771 6.40362 1.80723C7.48795 1.80723 7.8494 1.80723 10.5 1.80723ZM10.5 0C7.72892 0 7.48795 0 6.40362 0C5.31928 0 4.59639 0.240965 3.99398 0.481928C3.39157 0.722892 2.78916 1.08434 2.18675 1.68675C1.58434 2.28916 1.34337 2.77109 0.981928 3.49398C0.740965 4.09639 0.620482 4.81928 0.5 5.90362C0.5 6.98795 0.5 7.3494 0.5 10C0.5 12.7711 0.5 13.0121 0.5 14.0964C0.5 15.1807 0.740965 15.9036 0.981928 16.506C1.22289 17.1084 1.58434 17.7108 2.18675 18.3133C2.78916 18.9157 3.27109 19.1566 3.99398 19.5181C4.59639 19.759 5.31928 19.8795 6.40362 20C7.48795 20 7.8494 20 10.5 20C13.1506 20 13.5121 20 14.5964 20C15.6807 20 16.4036 19.759 17.006 19.5181C17.6084 19.2771 18.2108 18.9157 18.8133 18.3133C19.4157 17.7108 19.6566 17.2289 20.0181 16.506C20.259 15.9036 20.3795 15.1807 20.5 14.0964C20.5 13.0121 20.5 12.6506 20.5 10C20.5 7.3494 20.5 6.98795 20.5 5.90362C20.5 4.81928 20.259 4.09639 20.0181 3.49398C19.7771 2.89157 19.4157 2.28916 18.8133 1.68675C18.2108 1.08434 17.7289 0.843374 17.006 0.481928C16.4036 0.240965 15.6807 0.120482 14.5964 0C13.5121 0 13.2711 0 10.5 0Z"
+          fill="currentColor"
+        />
+        <path
+          d="M10.5 4.81928C7.60843 4.81928 5.31928 7.10843 5.31928 10C5.31928 12.8916 7.60843 15.1807 10.5 15.1807C13.3916 15.1807 15.6807 12.8916 15.6807 10C15.6807 7.10843 13.3916 4.81928 10.5 4.81928ZM10.5 13.3735C8.69277 13.3735 7.12651 11.9277 7.12651 10C7.12651 8.19277 8.57229 6.62651 10.5 6.62651C12.3072 6.62651 13.8735 8.07229 13.8735 10C13.8735 11.8072 12.3072 13.3735 10.5 13.3735Z"
+          fill="currentColor"
+        />
+        <path
+          d="M15.8012 5.90362C16.4666 5.90362 17.006 5.3642 17.006 4.6988C17.006 4.03339 16.4666 3.49398 15.8012 3.49398C15.1358 3.49398 14.5964 4.03339 14.5964 4.6988C14.5964 5.3642 15.1358 5.90362 15.8012 5.90362Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="facebook" viewBox="0 0 21 20" fill="none">
+        <path
+          d="M20.5 10C20.5 4.5 16 0 10.5 0C5 0 0.5 4.5 0.5 10C0.5 15 4.125 19.125 8.875 19.875V12.875H6.375V10H8.875V7.75C8.875 5.25 10.375 3.875 12.625 3.875C13.75 3.875 14.875 4.125 14.875 4.125V6.625H13.625C12.375 6.625 12 7.375 12 8.125V10H14.75L14.25 12.875H11.875V20C16.875 19.25 20.5 15 20.5 10Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="twitter" viewBox="0 0 21 20" fill="none">
+        <path
+          d="M15.7031 1.875H18.4609L12.4375 8.75781L19.5234 18.125H13.9766L9.62891 12.4453L4.66016 18.125H1.89844L8.33984 10.7617L1.54688 1.875H7.23438L11.1602 7.06641L15.7031 1.875ZM14.7344 16.4766H16.2617L6.40234 3.4375H4.76172L14.7344 16.4766Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="youtube" viewBox="0 0 23 20" fill="none">
+        <path
+          d="M21.9727 4.84766C21.7266 3.92187 21.0039 3.19531 20.0859 2.94922C18.4219 2.5 11.75 2.5 11.75 2.5C11.75 2.5 5.07812 2.5 3.41406 2.94922C2.49609 3.19531 1.77344 3.92187 1.52734 4.84766C1.08203 6.52344 1.08203 10.0156 1.08203 10.0156C1.08203 10.0156 1.08203 13.5078 1.52734 15.1836C1.77344 16.1094 2.49609 16.8047 3.41406 17.0508C5.07812 17.5 11.75 17.5 11.75 17.5C11.75 17.5 18.4219 17.5 20.0859 17.0508C21.0039 16.8047 21.7266 16.1055 21.9727 15.1836C22.418 13.5078 22.418 10.0156 22.418 10.0156C22.418 10.0156 22.418 6.52344 21.9727 4.84766ZM9.57031 13.1875V6.84375L15.1445 10.0156L9.57031 13.1875Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="chevron-botom" viewBox="0 0 24 24" fill="none">
+        <path
+          d="M11.9999 14.6615C11.8794 14.6615 11.7672 14.6423 11.6634 14.6038C11.5595 14.5654 11.4608 14.4993 11.3672 14.4057L6.87301 9.91152C6.73454 9.77307 6.66371 9.59904 6.66051 9.38942C6.65729 9.17981 6.72812 9.00257 6.87301 8.8577C7.01787 8.71283 7.1935 8.6404 7.3999 8.6404C7.6063 8.6404 7.78194 8.71283 7.9268 8.8577L11.9999 12.9308L16.073 8.8577C16.2115 8.71925 16.3855 8.64842 16.5951 8.6452C16.8047 8.642 16.9819 8.71283 17.1268 8.8577C17.2717 9.00257 17.3441 9.17821 17.3441 9.38462C17.3441 9.59102 17.2717 9.76666 17.1268 9.91152L12.6326 14.4057C12.539 14.4993 12.4403 14.5654 12.3364 14.6038C12.2326 14.6423 12.1204 14.6615 11.9999 14.6615Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="chevron-right" viewBox="0 0 12 12" fill="none">
+        <path
+          d="M7.22539 5.99994L3.55039 2.32494C3.42539 2.19994 3.36497 2.05411 3.36914 1.88744C3.37331 1.72078 3.43789 1.57494 3.56289 1.44994C3.68789 1.32494 3.83372 1.26244 4.00039 1.26244C4.16706 1.26244 4.31289 1.32494 4.43789 1.44994L8.28789 5.28744C8.38789 5.38744 8.46289 5.49994 8.51289 5.62494C8.56289 5.74994 8.58789 5.87494 8.58789 5.99994C8.58789 6.12494 8.56289 6.24994 8.51289 6.37494C8.46289 6.49994 8.38789 6.61244 8.28789 6.71244L4.43789 10.5624C4.31289 10.6874 4.16497 10.7479 3.99414 10.7437C3.82331 10.7395 3.67539 10.6749 3.55039 10.5499C3.42539 10.4249 3.36289 10.2791 3.36289 10.1124C3.36289 9.94578 3.42539 9.79994 3.55039 9.67494L7.22539 5.99994Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="searchIcon" viewBox="0 0 28 29" fill="none">
+        <path
+          d="M11.0833 19.1667C8.96389 19.1667 7.17014 18.4326 5.70208 16.9646C4.23403 15.4965 3.5 13.7028 3.5 11.5833C3.5 9.46389 4.23403 7.67014 5.70208 6.20208C7.17014 4.73403 8.96389 4 11.0833 4C13.2028 4 14.9965 4.73403 16.4646 6.20208C17.9326 7.67014 18.6667 9.46389 18.6667 11.5833C18.6667 12.4389 18.5306 13.2458 18.2583 14.0042C17.9861 14.7625 17.6167 15.4333 17.15 16.0167L23.6833 22.55C23.8972 22.7639 24.0042 23.0361 24.0042 23.3667C24.0042 23.6972 23.8972 23.9694 23.6833 24.1833C23.4694 24.3972 23.1972 24.5042 22.8667 24.5042C22.5361 24.5042 22.2639 24.3972 22.05 24.1833L15.5167 17.65C14.9333 18.1167 14.2625 18.4861 13.5042 18.7583C12.7458 19.0306 11.9389 19.1667 11.0833 19.1667ZM11.0833 16.8333C12.5417 16.8333 13.7812 16.3229 14.8021 15.3021C15.8229 14.2812 16.3333 13.0417 16.3333 11.5833C16.3333 10.125 15.8229 8.88542 14.8021 7.86458C13.7812 6.84375 12.5417 6.33333 11.0833 6.33333C9.625 6.33333 8.38542 6.84375 7.36458 7.86458C6.34375 8.88542 5.83333 10.125 5.83333 11.5833C5.83333 13.0417 6.34375 14.2812 7.36458 15.3021C8.38542 16.3229 9.625 16.8333 11.0833 16.8333Z"
+          fill="currentColor"
+        />
+      </symbol>
+    </svg>
+
+    <!-- js
+    =========================================== -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

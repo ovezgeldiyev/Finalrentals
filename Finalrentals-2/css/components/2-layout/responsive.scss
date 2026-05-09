@@ -1,0 +1,378 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+  .currency {
+    &Menu {
+      right: 0;
+      left: unset;
+    }
+  }
+  // @include intro-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+  h1 {
+    font-size: 60px;
+  }
+  // @include intro-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+  // @include intro-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+  .auto__container {
+    padding: 0 30px;
+  }
+  h1 {
+    font-size: 55px;
+  }
+  h2 {
+    &.ex {
+      font-size: 60px;
+    }
+    &.big {
+      font-size: 45px;
+    }
+  }
+  h3 {
+    &.big {
+      font-size: 24px;
+    }
+  }
+  p {
+    &.lg {
+      font-size: 24px;
+    }
+  }
+  @include intro-xlg-xxlg;
+  @include deals-xlg-xxlg;
+  @include places-xlg-xxlg;
+  @include special-xlg-xxlg;
+  @include features-xlg-xxlg;
+  @include book-xlg-xxlg;
+  @include steps-xlg-xxlg;
+  @include locations-xlg-xxlg;
+  @include news-xlg-xxlg;
+  @include clients-xlg-xxlg;
+  @include info-xlg-xxlg;
+  @include contact-xlg-xxlg;
+  @include faq-xlg-xxlg;
+  @include partners-xlg-xxlg;
+
+  // internal
+  @include essential-xlg-xxlg;
+  @include hire-xlg-xxlg;
+  @include offer-xlg-xxlg;
+  // about
+  @include hero-xlg-xxlg;
+  @include mission-xlg-xxlg;
+  @include journey-xlg-xxlg;
+  // franchise
+  @include support-xlg-xxlg;
+  @include strengths-xlg-xxlg;
+  // affiliate
+  @include affiliate-xlg-xxlg;
+  // terms
+  @include terms-xlg-xxlg;
+  // blog
+  @include blog-xlg-xxlg;
+  // article
+  @include article-xlg-xxlg;
+  // story
+  @include story-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  p {
+    &.ex {
+      font-size: 18px;
+    }
+    &.big {
+      font-size: 16px;
+    }
+    &.lg {
+      font-size: 22px;
+    }
+  }
+  .lang {
+    &Menu {
+      top: unset;
+      bottom: calc(100% + 8px);
+      display: none;
+      opacity: 1;
+      visibility: visible;
+      &.active {
+        display: flex;
+        animation: fadeIn 0.3s;
+      }
+    }
+  }
+  .currency {
+    &Menu {
+      top: unset;
+      bottom: calc(100% + 8px);
+      display: none;
+      opacity: 1;
+      visibility: visible;
+      &.active {
+        display: flex;
+        animation: fadeIn 0.3s;
+      }
+    }
+  }
+  @include header-lg-xlg;
+  @include nav-lg-xlg;
+  @include locations-lg-xlg;
+}
+// 930px
+@include md-lg {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    &.ex {
+      font-size: 50px;
+      span {
+        width: 240px;
+      }
+    }
+    &.big {
+      font-size: 40px;
+    }
+  }
+  h3 {
+    font-size: 18px;
+    &.big {
+      font-size: 20px;
+    }
+    &.ex {
+      font-size: 30px;
+    }
+  }
+  p {
+    &.lg {
+      font-size: 20px;
+    }
+  }
+  .button {
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 12px;
+    span {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @include intro-md-lg;
+  @include places-md-lg;
+  @include features-md-lg;
+  @include book-md-lg;
+  @include steps-md-lg;
+  @include info-md-lg;
+  @include contact-md-lg;
+  @include partners-md-lg;
+  @include faq-md-lg;
+  @include news-md-lg;
+  @include footer-md-lg;
+
+  // internal
+  @include hire-md-lg;
+  @include offer-md-lg;
+  // about
+  @include hero-md-lg;
+  @include mission-md-lg;
+  @include journey-md-lg;
+  // franchise
+  @include franchise-md-lg;
+  @include support-md-lg;
+  @include strengths-md-lg;
+  // affiliate
+  @include affiliate-md-lg;
+  // blog
+  @include blog-md-lg;
+  // article
+  @include article-md-lg;
+  // story
+  @include story-md-lg;
+}
+// 840px
+@include md-lg-extra {
+  @include deals-md-lg-extra;
+  @include locations-md-lg-extra;
+}
+// 750px
+@include sm-md {
+  .auto__container {
+    padding: 0 24px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    &.ex {
+      font-size: 40px;
+      b {
+        padding: 2px 10px;
+      }
+      span {
+        width: 200px;
+      }
+    }
+    &.big {
+      font-size: 35px;
+    }
+  }
+  h3 {
+    &.ex {
+      font-size: 25px;
+    }
+  }
+  p {
+    &.lg {
+      font-size: 18px;
+    }
+  }
+  @include places-sm-md;
+  @include special-sm-md;
+  @include features-sm-md;
+  @include news-sm-md;
+  @include book-sm-md;
+  @include info-sm-md;
+  @include partners-sm-md;
+  @include faq-sm-md;
+  @include footer-sm-md;
+
+  // internal
+  @include essential-sm-md;
+  @include hire-sm-md;
+  @include offer-sm-md;
+  // about
+  @include mission-sm-md;
+  @include journey-sm-md;
+  // franchise
+  @include support-sm-md;
+  @include strengths-sm-md;
+  // affiliate
+  @include affiliate-sm-md;
+  // blog
+  @include blog-sm-md;
+  // article
+  @include article-sm-md;
+}
+// 650px
+@include sm-md-extra {
+  @include deals-sm-md-extra;
+  @include places-sm-md-extra;
+  @include special-sm-md-extra;
+  @include news-sm-md-extra;
+  @include clients-sm-md-extra;
+  @include contact-sm-md-extra;
+  @include footer-sm-md-extra;
+  // internal
+}
+// 540px
+@include xsm-sm {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 28px;
+    &.ex {
+      font-size: 35px;
+      span {
+        width: 170px;
+      }
+    }
+    &.big {
+      font-size: 30px;
+    }
+  }
+  p {
+    &.lg {
+      font-size: 16px;
+    }
+    &.ex {
+      font-size: 16px;
+    }
+  }
+  .locFinder {
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    max-width: unset;
+    &__wrapper {
+      padding: 0;
+    }
+  }
+  .daterangepicker {
+    position: fixed;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: unset;
+    overflow-y: auto;
+    .drp-calendar {
+      width: 100%;
+      max-width: 340px;
+      margin: 0 auto;
+      &.left {
+        margin-bottom: 20px !important;
+      }
+      &.right {
+        padding: 0 !important;
+        .calendar-time {
+          width: 100%;
+        }
+      }
+    }
+
+    .calendar-time {
+      width: 100%;
+    }
+  }
+  @include header-xsm-sm;
+  @include nav-xsm-sm;
+  @include intro-xsm-sm;
+  @include deals-xsm-sm;
+  @include book-xsm-sm;
+  @include steps-xsm-sm;
+  @include locations-xsm-sm;
+  @include clients-xsm-sm;
+  @include info-xsm-sm;
+  @include faq-xsm-sm;
+  @include partners-xsm-sm;
+  // about
+  @include hero-xsm-sm;
+  @include journey-xsm-sm;
+  // internal
+  @include essential-xsm-sm;
+  @include hire-xsm-sm;
+  // franchise
+  @include franchise-xsm-sm;
+  @include strengths-xsm-sm;
+  // affiliate
+  @include affiliate-xsm-sm;
+  // terms
+  @include terms-xsm-sm;
+  // blog
+  @include blog-xsm-sm;
+  @include news-xsm-sm;
+  // article
+  @include article-xsm-sm;
+  // story
+  @include story-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+  // @include intro-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm {
+  // @include intro-xxxsm-xxsm;
+}
